@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XXX",
+    "X#X",
+    "XXX"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:sweet_berries"
+    },
+    "X": {
+      "item": "minecraft:gold_nugget"
+    }
+  },
+  "result": {
+    "item": "roastedonions:golden_berries"
+  }
+}
