@@ -8,5 +8,5 @@ Forge version 40.1.80 or above
 - Oh the biomes you'll go 1.4 or above
 
 # Note
-This mod was designed purely for me and my friend, \
+This mod was designed purely for me and my friends, \
 use it at your own risk.
