@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ØŁ ",
+    " X "
+  ],
+  "key": {
+    "Ł": {
+      "item": "roastedonions:cooked_sausage"
+    },
+    "Ø": {
+      "item": "roastedonions:roastedonion"
+    },
+    "X": {
+      "item": "minecraft:bread"
+    }
+  },
+  "result": {
+    "item": "roastedonions:blue_spandauer"
+  }
+}

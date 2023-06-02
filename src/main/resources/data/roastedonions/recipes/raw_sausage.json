@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XXX"
+  ],
+  "key": {
+    "X": {
+      "item": "minecraft:beef"
+    }
+  },
+  "result": {
+    "item": "roastedonions:raw_sausage",
+    "count": 5
+  }
+}
