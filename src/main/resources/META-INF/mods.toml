@@ -18,11 +18,11 @@ displayName="roastedonions"
 updateJSONURL="https://minecraftforge.net/versions.json"
 displayURL="https://minecraftforge.net"
 #logoFile="logo.png"
-credits="CatStorms Cats: Naldush & Dalli"
+credits="CatStorms Cats: Naldush & Dalli as well as Fyndrix' lobster"
 authors="Programming by CatStorm, textures & idea by Fyndrix"
 description='''
   Top level Danish cuisine
- '''
+'''
 
 [[dependencies.roastedonions]]
 modId="forge"
@@ -40,14 +40,14 @@ side="BOTH"
 
 [[dependencies.roastedonions]]
 modId="farmersdelight"
-mandatory=true
+mandatory=false
 versionRange="[1.1.2,)"
 ordering="AFTER"
 side="BOTH"
 
 [[dependencies.roastedonions]]
 modId="byg"
-mandatory=true
+mandatory=false
 versionRange="[1.4,)"
 ordering="AFTER"
 side="BOTH"

@@ -12,6 +12,7 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 
+@SuppressWarnings("unused")
 @Mod("roastedonions")
 public class roastedonions
 {
@@ -33,6 +34,18 @@ public class roastedonions
     public static final RegistryObject<Item> golden_berries = ITEMS.register("golden_berries",
             () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_FOOD)
                     .food(new FoodProperties.Builder().nutrition(10).saturationMod(10f).build())));
+
+    public static final RegistryObject<Item> raw_sausage = ITEMS.register("raw_sausage",
+            () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_FOOD)
+                    .food(new FoodProperties.Builder().nutrition(3).saturationMod(3.62f).build())));
+
+    public static final RegistryObject<Item> cooked_sausage = ITEMS.register("cooked_sausage",
+            () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_FOOD)
+                    .food(new FoodProperties.Builder().nutrition(5).saturationMod(7.35f).build())));
+
+    public static final RegistryObject<Item> hotdog = ITEMS.register("hotdog",
+            () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_FOOD)
+                    .food(new FoodProperties.Builder().nutrition(7).saturationMod(10f).build())));
 
     public roastedonions()
     {

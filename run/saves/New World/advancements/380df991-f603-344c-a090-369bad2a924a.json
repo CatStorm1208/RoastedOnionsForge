@@ -1,7 +1,43 @@
 {
+  "minecraft:recipes/decorations/campfire": {
+    "criteria": {
+      "has_coal": "2023-06-01 18:58:51 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/smoker": {
+    "criteria": {
+      "has_furnace": "2023-06-01 18:58:26 +0200"
+    },
+    "done": true
+  },
   "minecraft:husbandry/root": {
     "criteria": {
       "consumed_item": "2023-03-24 19:25:18 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_beef_from_smoking": {
+    "criteria": {
+      "has_beef": "2023-05-26 23:45:59 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_beef_from_campfire_cooking": {
+    "criteria": {
+      "has_beef": "2023-05-26 23:45:59 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/coal_block": {
+    "criteria": {
+      "has_coal": "2023-06-01 18:58:51 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_beef": {
+    "criteria": {
+      "has_beef": "2023-05-26 23:45:59 +0200"
     },
     "done": true
   },
@@ -10,6 +46,12 @@
       "minecraft:plains": "2023-03-24 19:25:03 +0100"
     },
     "done": false
+  },
+  "minecraft:story/root": {
+    "criteria": {
+      "crafting_table": "2023-05-26 23:46:27 +0200"
+    },
+    "done": true
   },
   "DataVersion": 2975
 }

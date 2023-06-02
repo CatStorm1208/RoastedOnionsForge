@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "roastedonions:raw_sausage"
+  },
+  "result": "roastedonions:cooked_sausage",
+  "experience": 0.0,
+  "cookingtime": 100
+}
