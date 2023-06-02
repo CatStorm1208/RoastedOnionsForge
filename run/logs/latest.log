@@ -1,26 +1,30 @@
-[01Juni2023 18:51:08.554] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeclientuserdev, --version, MOD_DEV, --assetIndex, 1.18, --assetsDir, C:\Users\anton\.gradle\caches\forge_gradle\assets, --gameDir, ., --fml.forgeVersion, 40.1.80, --fml.mcVersion, 1.18.2, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20220404.173914]
-[01Juni2023 18:51:08.649] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 9.1.3+9.1.3+main.9b69c82a starting: java version 17.0.5 by Eclipse Adoptium
-[01Juni2023 18:51:09.812] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/C:/Users/anton/.gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.8.5/9d1c0c3a304ae6697ecd477218fa61b850bf57fc/mixin-0.8.5.jar%2323!/ Service=ModLauncher Env=CLIENT
-[01Juni2023 18:51:12.628] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\anton\.gradle\caches\modules-2\files-2.1\net.minecraftforge\javafmllanguage\1.18.2-40.1.80\90438da2d8de451a793fc69d3c343ebc5bc401e1\javafmllanguage-1.18.2-40.1.80.jar is missing mods.toml file
-[01Juni2023 18:51:12.640] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\anton\.gradle\caches\modules-2\files-2.1\net.minecraftforge\lowcodelanguage\1.18.2-40.1.80\f81c79807d6b57938f2169b01f403ff103f3ed50\lowcodelanguage-1.18.2-40.1.80.jar is missing mods.toml file
-[01Juni2023 18:51:12.653] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\anton\.gradle\caches\modules-2\files-2.1\net.minecraftforge\mclanguage\1.18.2-40.1.80\8771f610fa019b272803538ce71f77409082691f\mclanguage-1.18.2-40.1.80.jar is missing mods.toml file
-[01Juni2023 18:51:12.670] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\anton\.gradle\caches\modules-2\files-2.1\net.minecraftforge\fmlcore\1.18.2-40.1.80\a0e12c8a0526791f1a7840d3b1c4fc061c6bd30f\fmlcore-1.18.2-40.1.80.jar is missing mods.toml file
-[01Juni2023 18:51:13.870] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
-[01Juni2023 18:51:40.811] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeclientuserdev' with arguments [--version, MOD_DEV, --gameDir, ., --assetsDir, C:\Users\anton\.gradle\caches\forge_gradle\assets, --assetIndex, 1.18]
-[01Juni2023 18:52:14.639] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResources/]: Assets URL 'union:/C:/Users/anton/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.18.2-40.1.80_mapped_official_1.18.2/forge-1.18.2-40.1.80_mapped_official_1.18.2-recomp.jar%2379!/assets/.mcassetsroot' uses unexpected schema
-[01Juni2023 18:52:14.640] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResources/]: Assets URL 'union:/C:/Users/anton/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.18.2-40.1.80_mapped_official_1.18.2/forge-1.18.2-40.1.80_mapped_official_1.18.2-recomp.jar%2379!/data/.mcassetsroot' uses unexpected schema
-[01Juni2023 18:52:14.701] [Render thread/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[01Juni2023 18:52:14.721] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Setting user: Dev
-[01Juni2023 18:52:15.699] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Backend library: LWJGL version 3.2.2 SNAPSHOT
-[01Juni2023 18:52:21.400] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 40.1.80, for MC 1.18.2 with MCP 20220404.173914
-[01Juni2023 18:52:21.404] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v40.1.80 Initialized
-[01Juni2023 18:52:28.305] [Render thread/INFO] [com.mojang.text2speech.NarratorWindows/]: Narrator library for x64 successfully loaded
-[01Juni2023 18:52:28.514] [Render thread/INFO] [net.minecraftforge.gametest.ForgeGameTestHooks/]: Enabled Gametest Namespaces: [roastedonions]
-[01Juni2023 18:52:28.983] [Render thread/INFO] [net.minecraft.server.packs.resources.ReloadableResourceManager/]: Reloading ResourceManager: Default, Mod Resources
-[01Juni2023 18:52:30.851] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
-[01Juni2023 18:52:33.143] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 40.1.80 Target: 40.2.0
-[01Juni2023 18:52:33.144] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [roastedonions] Starting version check at https://minecraftforge.net/versions.json
-[01Juni2023 18:52:34.920] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
+[02Juni2023 19:31:42.804] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeclientuserdev, --version, MOD_DEV, --assetIndex, 1.18, --assetsDir, C:\Users\anton\.gradle\caches\forge_gradle\assets, --gameDir, ., --fml.forgeVersion, 40.1.80, --fml.mcVersion, 1.18.2, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20220404.173914]
+[02Juni2023 19:31:42.812] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 9.1.3+9.1.3+main.9b69c82a starting: java version 17.0.5 by Amazon.com Inc.
+[02Juni2023 19:31:42.969] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/C:/Users/anton/.gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.8.5/9d1c0c3a304ae6697ecd477218fa61b850bf57fc/mixin-0.8.5.jar%2323!/ Service=ModLauncher Env=CLIENT
+[02Juni2023 19:31:43.427] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\anton\.gradle\caches\modules-2\files-2.1\net.minecraftforge\javafmllanguage\1.18.2-40.1.80\90438da2d8de451a793fc69d3c343ebc5bc401e1\javafmllanguage-1.18.2-40.1.80.jar is missing mods.toml file
+[02Juni2023 19:31:43.431] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\anton\.gradle\caches\modules-2\files-2.1\net.minecraftforge\lowcodelanguage\1.18.2-40.1.80\f81c79807d6b57938f2169b01f403ff103f3ed50\lowcodelanguage-1.18.2-40.1.80.jar is missing mods.toml file
+[02Juni2023 19:31:43.434] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\anton\.gradle\caches\modules-2\files-2.1\net.minecraftforge\mclanguage\1.18.2-40.1.80\8771f610fa019b272803538ce71f77409082691f\mclanguage-1.18.2-40.1.80.jar is missing mods.toml file
+[02Juni2023 19:31:43.439] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\anton\.gradle\caches\modules-2\files-2.1\net.minecraftforge\fmlcore\1.18.2-40.1.80\a0e12c8a0526791f1a7840d3b1c4fc061c6bd30f\fmlcore-1.18.2-40.1.80.jar is missing mods.toml file
+[02Juni2023 19:31:43.606] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
+[02Juni2023 19:31:45.336] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeclientuserdev' with arguments [--version, MOD_DEV, --gameDir, ., --assetsDir, C:\Users\anton\.gradle\caches\forge_gradle\assets, --assetIndex, 1.18]
+[02Juni2023 19:31:54.822] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResources/]: Assets URL 'union:/C:/Users/anton/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.18.2-40.1.80_mapped_official_1.18.2/forge-1.18.2-40.1.80_mapped_official_1.18.2-recomp.jar%2379!/assets/.mcassetsroot' uses unexpected schema
+[02Juni2023 19:31:54.840] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResources/]: Assets URL 'union:/C:/Users/anton/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.18.2-40.1.80_mapped_official_1.18.2/forge-1.18.2-40.1.80_mapped_official_1.18.2-recomp.jar%2379!/data/.mcassetsroot' uses unexpected schema
+[02Juni2023 19:31:54.898] [Render thread/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[02Juni2023 19:31:54.962] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Setting user: Dev
+[02Juni2023 19:31:55.499] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Backend library: LWJGL version 3.2.2 SNAPSHOT
+[02Juni2023 19:31:57.476] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 40.1.80, for MC 1.18.2 with MCP 20220404.173914
+[02Juni2023 19:31:57.478] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v40.1.80 Initialized
+[02Juni2023 19:32:00.756] [Render thread/INFO] [com.mojang.text2speech.NarratorWindows/]: Narrator library for x64 successfully loaded
+[02Juni2023 19:32:00.870] [Render thread/INFO] [net.minecraftforge.gametest.ForgeGameTestHooks/]: Enabled Gametest Namespaces: [roastedonions]
+[02Juni2023 19:32:01.289] [Render thread/INFO] [net.minecraft.server.packs.resources.ReloadableResourceManager/]: Reloading ResourceManager: Default, Mod Resources
+[02Juni2023 19:32:10.591] [Worker-Main-7/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'roastedonions:raw_sausage#inventory' referenced from: roastedonions:raw_sausage#inventory: java.io.FileNotFoundException: roastedonions:models/item/raw_sausage.json
+[02Juni2023 19:32:10.593] [Worker-Main-7/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'roastedonions:cooked_sausage#inventory' referenced from: roastedonions:cooked_sausage#inventory: java.io.FileNotFoundException: roastedonions:models/item/cooked_sausage.json
+[02Juni2023 19:32:10.593] [Worker-Main-7/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'roastedonions:hotdog#inventory' referenced from: roastedonions:hotdog#inventory: java.io.FileNotFoundException: roastedonions:models/item/hotdog.json
+[02Juni2023 19:32:10.594] [Worker-Main-7/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'roastedonions:hotdog_with_ketchup#inventory' referenced from: roastedonions:hotdog_with_ketchup#inventory: java.io.FileNotFoundException: roastedonions:models/item/hotdog_with_ketchup.json
+[02Juni2023 19:32:13.680] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[02Juni2023 19:32:15.361] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 40.1.80 Target: 40.2.0
+[02Juni2023 19:32:15.362] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [roastedonions] Starting version check at https://minecraftforge.net/versions.json
+[02Juni2023 19:32:16.928] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
 com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $
 	at com.google.gson.Gson.fromJson(Gson.java:975) ~[gson-2.8.9.jar%2343!/:?]
 	at com.google.gson.Gson.fromJson(Gson.java:928) ~[gson-2.8.9.jar%2343!/:?]
@@ -35,28 +39,77 @@ Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING
 	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:145) ~[gson-2.8.9.jar%2343!/:?]
 	at com.google.gson.Gson.fromJson(Gson.java:963) ~[gson-2.8.9.jar%2343!/:?]
 	... 6 more
-[01Juni2023 18:53:05.314] [Worker-Main-7/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'roastedonions:raw_sausage#inventory' referenced from: roastedonions:raw_sausage#inventory: java.io.FileNotFoundException: roastedonions:models/item/raw_sausage.json
-[01Juni2023 18:53:05.318] [Worker-Main-7/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'roastedonions:cooked_sausage#inventory' referenced from: roastedonions:cooked_sausage#inventory: java.io.FileNotFoundException: roastedonions:models/item/cooked_sausage.json
-[01Juni2023 18:53:05.322] [Worker-Main-7/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'roastedonions:hotdog#inventory' referenced from: roastedonions:hotdog#inventory: java.io.FileNotFoundException: roastedonions:models/item/hotdog.json
-[01Juni2023 18:53:30.607] [Render thread/INFO] [com.mojang.blaze3d.audio.Library/]: OpenAL initialized on device OpenAL Soft on Lautsprecher (2- USB Audio Device)
-[01Juni2023 18:53:30.609] [Render thread/INFO] [net.minecraft.client.sounds.SoundEngine/SOUNDS]: Sound engine started
-[01Juni2023 18:53:31.138] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x512x4 minecraft:textures/atlas/blocks.png-atlas
-[01Juni2023 18:53:31.640] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x128x4 minecraft:textures/atlas/signs.png-atlas
-[01Juni2023 18:53:31.646] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
-[01Juni2023 18:53:31.656] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
-[01Juni2023 18:53:31.668] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
-[01Juni2023 18:53:31.673] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
-[01Juni2023 18:53:31.678] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
-[01Juni2023 18:53:38.912] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x0 minecraft:textures/atlas/particles.png-atlas
-[01Juni2023 18:53:38.944] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
-[01Juni2023 18:53:38.959] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 128x128x0 minecraft:textures/atlas/mob_effects.png-atlas
-[01Juni2023 18:53:40.019] [Realms Notification Availability checker #1/INFO] [com.mojang.realmsclient.client.RealmsClient/]: Could not authorize you against Realms server: Invalid session id
-[01Juni2023 18:54:09.071] [Render thread/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[01Juni2023 18:54:09.073] [Render thread/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
-[01Juni2023 18:54:09.100] [Render thread/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[01Juni2023 18:54:09.137] [Render thread/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[01Juni2023 18:54:09.139] [Render thread/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[01Juni2023 18:54:22.764] [Render thread/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe roastedonions:golden_berries_from_blueberries
+[02Juni2023 19:32:19.742] [Render thread/INFO] [com.mojang.blaze3d.audio.Library/]: OpenAL initialized on device OpenAL Soft on Lautsprecher (Realtek(R) Audio)
+[02Juni2023 19:32:19.746] [Render thread/INFO] [net.minecraft.client.sounds.SoundEngine/SOUNDS]: Sound engine started
+[02Juni2023 19:32:20.310] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x512x4 minecraft:textures/atlas/blocks.png-atlas
+[02Juni2023 19:32:20.545] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x128x4 minecraft:textures/atlas/signs.png-atlas
+[02Juni2023 19:32:20.547] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
+[02Juni2023 19:32:20.550] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
+[02Juni2023 19:32:20.554] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
+[02Juni2023 19:32:20.555] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
+[02Juni2023 19:32:20.557] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
+[02Juni2023 19:32:25.279] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x0 minecraft:textures/atlas/particles.png-atlas
+[02Juni2023 19:32:25.310] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
+[02Juni2023 19:32:25.331] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 128x128x0 minecraft:textures/atlas/mob_effects.png-atlas
+[02Juni2023 19:32:29.176] [Realms Notification Availability checker #1/INFO] [com.mojang.realmsclient.client.RealmsClient/]: Could not authorize you against Realms server: Invalid session id
+[02Juni2023 19:33:26.777] [Render thread/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[02Juni2023 19:33:26.778] [Render thread/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[02Juni2023 19:33:26.782] [Render thread/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[02Juni2023 19:33:26.786] [Render thread/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[02Juni2023 19:33:26.788] [Render thread/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[02Juni2023 19:33:28.979] [Render thread/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe roastedonions:hotdog
+com.google.gson.JsonSyntaxException: Missing ingredients, expected to find a JsonArray
+	at net.minecraft.util.GsonHelper.getAsJsonArray(GsonHelper.java:354) ~[forge-1.18.2-40.1.80_mapped_official_1.18.2-recomp.jar%2379!/:?]
+	at net.minecraft.world.item.crafting.ShapelessRecipe$Serializer.fromJson(ShapelessRecipe.java:81) ~[forge-1.18.2-40.1.80_mapped_official_1.18.2-recomp.jar%2379!/:?]
+	at net.minecraft.world.item.crafting.ShapelessRecipe$Serializer.fromJson(ShapelessRecipe.java:77) ~[forge-1.18.2-40.1.80_mapped_official_1.18.2-recomp.jar%2379!/:?]
+	at net.minecraftforge.common.extensions.IForgeRecipeSerializer.fromJson(IForgeRecipeSerializer.java:23) ~[forge-1.18.2-40.1.80_mapped_official_1.18.2-recomp.jar%2378%2385!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.fromJson(RecipeManager.java:157) ~[forge-1.18.2-40.1.80_mapped_official_1.18.2-recomp.jar%2379!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.apply(RecipeManager.java:67) ~[forge-1.18.2-40.1.80_mapped_official_1.18.2-recomp.jar%2379!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.apply(RecipeManager.java:34) ~[forge-1.18.2-40.1.80_mapped_official_1.18.2-recomp.jar%2379!/:?]
+	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.lambda$reload$1(SimplePreparableReloadListener.java:12) ~[forge-1.18.2-40.1.80_mapped_official_1.18.2-recomp.jar%2379!/:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.server.packs.resources.SimpleReloadInstance.lambda$new$3(SimpleReloadInstance.java:65) ~[forge-1.18.2-40.1.80_mapped_official_1.18.2-recomp.jar%2379!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:143) ~[forge-1.18.2-40.1.80_mapped_official_1.18.2-recomp.jar%2379!/:?]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:22) ~[forge-1.18.2-40.1.80_mapped_official_1.18.2-recomp.jar%2379!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:116) ~[forge-1.18.2-40.1.80_mapped_official_1.18.2-recomp.jar%2379!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:126) ~[forge-1.18.2-40.1.80_mapped_official_1.18.2-recomp.jar%2379!/:?]
+	at net.minecraft.client.Minecraft.makeWorldStem(Minecraft.java:2082) ~[forge-1.18.2-40.1.80_mapped_official_1.18.2-recomp.jar%2379!/:?]
+	at net.minecraft.client.Minecraft.doLoadLevel(Minecraft.java:1909) ~[forge-1.18.2-40.1.80_mapped_official_1.18.2-recomp.jar%2379!/:?]
+	at net.minecraft.client.Minecraft.createLevel(Minecraft.java:1877) ~[forge-1.18.2-40.1.80_mapped_official_1.18.2-recomp.jar%2379!/:?]
+	at net.minecraft.client.gui.screens.worldselection.CreateWorldScreen.onCreate(CreateWorldScreen.java:246) ~[forge-1.18.2-40.1.80_mapped_official_1.18.2-recomp.jar%2379!/:?]
+	at net.minecraft.client.gui.screens.worldselection.CreateWorldScreen.lambda$init$13(CreateWorldScreen.java:195) ~[forge-1.18.2-40.1.80_mapped_official_1.18.2-recomp.jar%2379!/:?]
+	at net.minecraft.client.gui.components.Button.onPress(Button.java:29) ~[forge-1.18.2-40.1.80_mapped_official_1.18.2-recomp.jar%2379!/:?]
+	at net.minecraft.client.gui.components.AbstractButton.onClick(AbstractButton.java:17) ~[forge-1.18.2-40.1.80_mapped_official_1.18.2-recomp.jar%2379!/:?]
+	at net.minecraft.client.gui.components.AbstractWidget.mouseClicked(AbstractWidget.java:111) ~[forge-1.18.2-40.1.80_mapped_official_1.18.2-recomp.jar%2379!/:?]
+	at net.minecraft.client.gui.components.events.ContainerEventHandler.mouseClicked(ContainerEventHandler.java:28) ~[forge-1.18.2-40.1.80_mapped_official_1.18.2-recomp.jar%2379!/:?]
+	at net.minecraft.client.MouseHandler.lambda$onPress$0(MouseHandler.java:88) ~[forge-1.18.2-40.1.80_mapped_official_1.18.2-recomp.jar%2379!/:?]
+	at net.minecraft.client.gui.screens.Screen.wrapScreenError(Screen.java:528) ~[forge-1.18.2-40.1.80_mapped_official_1.18.2-recomp.jar%2379!/:?]
+	at net.minecraft.client.MouseHandler.onPress(MouseHandler.java:85) ~[forge-1.18.2-40.1.80_mapped_official_1.18.2-recomp.jar%2379!/:?]
+	at net.minecraft.client.MouseHandler.lambda$setup$4(MouseHandler.java:185) ~[forge-1.18.2-40.1.80_mapped_official_1.18.2-recomp.jar%2379!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.execute(BlockableEventLoop.java:90) ~[forge-1.18.2-40.1.80_mapped_official_1.18.2-recomp.jar%2379!/:?]
+	at net.minecraft.client.MouseHandler.lambda$setup$5(MouseHandler.java:184) ~[forge-1.18.2-40.1.80_mapped_official_1.18.2-recomp.jar%2379!/:?]
+	at org.lwjgl.glfw.GLFWMouseButtonCallbackI.callback(GLFWMouseButtonCallbackI.java:36) ~[lwjgl-glfw-3.2.2.jar%2357!/:build 10]
+	at org.lwjgl.system.JNI.invokeV(Native Method) ~[lwjgl-3.2.2.jar%2363!/:build 10]
+	at org.lwjgl.glfw.GLFW.glfwWaitEventsTimeout(GLFW.java:3174) ~[lwjgl-glfw-3.2.2.jar%2357!/:build 10]
+	at com.mojang.blaze3d.systems.RenderSystem.limitDisplayFPS(RenderSystem.java:187) ~[forge-1.18.2-40.1.80_mapped_official_1.18.2-recomp.jar%2379!/:?]
+	at net.minecraft.client.Minecraft.runTick(Minecraft.java:1071) ~[forge-1.18.2-40.1.80_mapped_official_1.18.2-recomp.jar%2379!/:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:665) ~[forge-1.18.2-40.1.80_mapped_official_1.18.2-recomp.jar%2379!/:?]
+	at net.minecraft.client.main.Main.main(Main.java:205) ~[forge-1.18.2-40.1.80_mapped_official_1.18.2-recomp.jar%2379!/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at net.minecraftforge.fml.loading.targets.ForgeClientUserdevLaunchHandler.lambda$launchService$0(ForgeClientUserdevLaunchHandler.java:24) ~[fmlloader-1.18.2-40.1.80.jar%230!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:37) [modlauncher-9.1.3.jar%2311!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) [modlauncher-9.1.3.jar%2311!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) [modlauncher-9.1.3.jar%2311!/:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:106) [modlauncher-9.1.3.jar%2311!/:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:77) [modlauncher-9.1.3.jar%2311!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) [modlauncher-9.1.3.jar%2311!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) [modlauncher-9.1.3.jar%2311!/:?]
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:149) [bootstraplauncher-1.0.0.jar:?]
+[02Juni2023 19:33:28.985] [Render thread/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe roastedonions:golden_berries_from_blueberries
 com.google.gson.JsonSyntaxException: Unknown item 'byg:blueberries'
 	at net.minecraft.world.item.crafting.ShapedRecipe.lambda$itemFromJson$2(ShapedRecipe.java:276) ~[forge-1.18.2-40.1.80_mapped_official_1.18.2-recomp.jar%2379!/:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -82,11 +135,12 @@ com.google.gson.JsonSyntaxException: Unknown item 'byg:blueberries'
 	at net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:126) ~[forge-1.18.2-40.1.80_mapped_official_1.18.2-recomp.jar%2379!/:?]
 	at net.minecraft.client.Minecraft.makeWorldStem(Minecraft.java:2082) ~[forge-1.18.2-40.1.80_mapped_official_1.18.2-recomp.jar%2379!/:?]
 	at net.minecraft.client.Minecraft.doLoadLevel(Minecraft.java:1909) ~[forge-1.18.2-40.1.80_mapped_official_1.18.2-recomp.jar%2379!/:?]
-	at net.minecraft.client.Minecraft.loadLevel(Minecraft.java:1873) ~[forge-1.18.2-40.1.80_mapped_official_1.18.2-recomp.jar%2379!/:?]
-	at net.minecraft.client.gui.screens.worldselection.WorldSelectionList$WorldListEntry.loadWorld(WorldSelectionList.java:473) ~[forge-1.18.2-40.1.80_mapped_official_1.18.2-recomp.jar%2379!/:?]
-	at net.minecraft.client.gui.screens.worldselection.WorldSelectionList$WorldListEntry.joinWorld(WorldSelectionList.java:330) ~[forge-1.18.2-40.1.80_mapped_official_1.18.2-recomp.jar%2379!/:?]
-	at net.minecraft.client.gui.screens.worldselection.WorldSelectionList$WorldListEntry.mouseClicked(WorldSelectionList.java:257) ~[forge-1.18.2-40.1.80_mapped_official_1.18.2-recomp.jar%2379!/:?]
-	at net.minecraft.client.gui.components.AbstractSelectionList.mouseClicked(AbstractSelectionList.java:323) ~[forge-1.18.2-40.1.80_mapped_official_1.18.2-recomp.jar%2379!/:?]
+	at net.minecraft.client.Minecraft.createLevel(Minecraft.java:1877) ~[forge-1.18.2-40.1.80_mapped_official_1.18.2-recomp.jar%2379!/:?]
+	at net.minecraft.client.gui.screens.worldselection.CreateWorldScreen.onCreate(CreateWorldScreen.java:246) ~[forge-1.18.2-40.1.80_mapped_official_1.18.2-recomp.jar%2379!/:?]
+	at net.minecraft.client.gui.screens.worldselection.CreateWorldScreen.lambda$init$13(CreateWorldScreen.java:195) ~[forge-1.18.2-40.1.80_mapped_official_1.18.2-recomp.jar%2379!/:?]
+	at net.minecraft.client.gui.components.Button.onPress(Button.java:29) ~[forge-1.18.2-40.1.80_mapped_official_1.18.2-recomp.jar%2379!/:?]
+	at net.minecraft.client.gui.components.AbstractButton.onClick(AbstractButton.java:17) ~[forge-1.18.2-40.1.80_mapped_official_1.18.2-recomp.jar%2379!/:?]
+	at net.minecraft.client.gui.components.AbstractWidget.mouseClicked(AbstractWidget.java:111) ~[forge-1.18.2-40.1.80_mapped_official_1.18.2-recomp.jar%2379!/:?]
 	at net.minecraft.client.gui.components.events.ContainerEventHandler.mouseClicked(ContainerEventHandler.java:28) ~[forge-1.18.2-40.1.80_mapped_official_1.18.2-recomp.jar%2379!/:?]
 	at net.minecraft.client.MouseHandler.lambda$onPress$0(MouseHandler.java:88) ~[forge-1.18.2-40.1.80_mapped_official_1.18.2-recomp.jar%2379!/:?]
 	at net.minecraft.client.gui.screens.Screen.wrapScreenError(Screen.java:528) ~[forge-1.18.2-40.1.80_mapped_official_1.18.2-recomp.jar%2379!/:?]
@@ -96,10 +150,9 @@ com.google.gson.JsonSyntaxException: Unknown item 'byg:blueberries'
 	at net.minecraft.client.MouseHandler.lambda$setup$5(MouseHandler.java:184) ~[forge-1.18.2-40.1.80_mapped_official_1.18.2-recomp.jar%2379!/:?]
 	at org.lwjgl.glfw.GLFWMouseButtonCallbackI.callback(GLFWMouseButtonCallbackI.java:36) ~[lwjgl-glfw-3.2.2.jar%2357!/:build 10]
 	at org.lwjgl.system.JNI.invokeV(Native Method) ~[lwjgl-3.2.2.jar%2363!/:build 10]
-	at org.lwjgl.glfw.GLFW.glfwPollEvents(GLFW.java:3101) ~[lwjgl-glfw-3.2.2.jar%2357!/:build 10]
-	at com.mojang.blaze3d.systems.RenderSystem.flipFrame(RenderSystem.java:168) ~[forge-1.18.2-40.1.80_mapped_official_1.18.2-recomp.jar%2379!/:?]
-	at com.mojang.blaze3d.platform.Window.updateDisplay(Window.java:333) ~[forge-1.18.2-40.1.80_mapped_official_1.18.2-recomp.jar%2379!/:?]
-	at net.minecraft.client.Minecraft.runTick(Minecraft.java:1068) ~[forge-1.18.2-40.1.80_mapped_official_1.18.2-recomp.jar%2379!/:?]
+	at org.lwjgl.glfw.GLFW.glfwWaitEventsTimeout(GLFW.java:3174) ~[lwjgl-glfw-3.2.2.jar%2357!/:build 10]
+	at com.mojang.blaze3d.systems.RenderSystem.limitDisplayFPS(RenderSystem.java:187) ~[forge-1.18.2-40.1.80_mapped_official_1.18.2-recomp.jar%2379!/:?]
+	at net.minecraft.client.Minecraft.runTick(Minecraft.java:1071) ~[forge-1.18.2-40.1.80_mapped_official_1.18.2-recomp.jar%2379!/:?]
 	at net.minecraft.client.Minecraft.run(Minecraft.java:665) ~[forge-1.18.2-40.1.80_mapped_official_1.18.2-recomp.jar%2379!/:?]
 	at net.minecraft.client.main.Main.main(Main.java:205) ~[forge-1.18.2-40.1.80_mapped_official_1.18.2-recomp.jar%2379!/:?]
 	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
@@ -115,7 +168,7 @@ com.google.gson.JsonSyntaxException: Unknown item 'byg:blueberries'
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) [modlauncher-9.1.3.jar%2311!/:?]
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) [modlauncher-9.1.3.jar%2311!/:?]
 	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:149) [bootstraplauncher-1.0.0.jar:?]
-[01Juni2023 18:54:22.776] [Render thread/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe roastedonions:roastedonion_from_smoking
+[02Juni2023 19:33:28.989] [Render thread/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe roastedonions:roastedonion_from_smoking
 com.google.gson.JsonSyntaxException: Unknown item 'farmersdelight:onion'
 	at net.minecraft.world.item.crafting.ShapedRecipe.lambda$itemFromJson$2(ShapedRecipe.java:276) ~[forge-1.18.2-40.1.80_mapped_official_1.18.2-recomp.jar%2379!/:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -140,11 +193,12 @@ com.google.gson.JsonSyntaxException: Unknown item 'farmersdelight:onion'
 	at net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:126) ~[forge-1.18.2-40.1.80_mapped_official_1.18.2-recomp.jar%2379!/:?]
 	at net.minecraft.client.Minecraft.makeWorldStem(Minecraft.java:2082) ~[forge-1.18.2-40.1.80_mapped_official_1.18.2-recomp.jar%2379!/:?]
 	at net.minecraft.client.Minecraft.doLoadLevel(Minecraft.java:1909) ~[forge-1.18.2-40.1.80_mapped_official_1.18.2-recomp.jar%2379!/:?]
-	at net.minecraft.client.Minecraft.loadLevel(Minecraft.java:1873) ~[forge-1.18.2-40.1.80_mapped_official_1.18.2-recomp.jar%2379!/:?]
-	at net.minecraft.client.gui.screens.worldselection.WorldSelectionList$WorldListEntry.loadWorld(WorldSelectionList.java:473) ~[forge-1.18.2-40.1.80_mapped_official_1.18.2-recomp.jar%2379!/:?]
-	at net.minecraft.client.gui.screens.worldselection.WorldSelectionList$WorldListEntry.joinWorld(WorldSelectionList.java:330) ~[forge-1.18.2-40.1.80_mapped_official_1.18.2-recomp.jar%2379!/:?]
-	at net.minecraft.client.gui.screens.worldselection.WorldSelectionList$WorldListEntry.mouseClicked(WorldSelectionList.java:257) ~[forge-1.18.2-40.1.80_mapped_official_1.18.2-recomp.jar%2379!/:?]
-	at net.minecraft.client.gui.components.AbstractSelectionList.mouseClicked(AbstractSelectionList.java:323) ~[forge-1.18.2-40.1.80_mapped_official_1.18.2-recomp.jar%2379!/:?]
+	at net.minecraft.client.Minecraft.createLevel(Minecraft.java:1877) ~[forge-1.18.2-40.1.80_mapped_official_1.18.2-recomp.jar%2379!/:?]
+	at net.minecraft.client.gui.screens.worldselection.CreateWorldScreen.onCreate(CreateWorldScreen.java:246) ~[forge-1.18.2-40.1.80_mapped_official_1.18.2-recomp.jar%2379!/:?]
+	at net.minecraft.client.gui.screens.worldselection.CreateWorldScreen.lambda$init$13(CreateWorldScreen.java:195) ~[forge-1.18.2-40.1.80_mapped_official_1.18.2-recomp.jar%2379!/:?]
+	at net.minecraft.client.gui.components.Button.onPress(Button.java:29) ~[forge-1.18.2-40.1.80_mapped_official_1.18.2-recomp.jar%2379!/:?]
+	at net.minecraft.client.gui.components.AbstractButton.onClick(AbstractButton.java:17) ~[forge-1.18.2-40.1.80_mapped_official_1.18.2-recomp.jar%2379!/:?]
+	at net.minecraft.client.gui.components.AbstractWidget.mouseClicked(AbstractWidget.java:111) ~[forge-1.18.2-40.1.80_mapped_official_1.18.2-recomp.jar%2379!/:?]
 	at net.minecraft.client.gui.components.events.ContainerEventHandler.mouseClicked(ContainerEventHandler.java:28) ~[forge-1.18.2-40.1.80_mapped_official_1.18.2-recomp.jar%2379!/:?]
 	at net.minecraft.client.MouseHandler.lambda$onPress$0(MouseHandler.java:88) ~[forge-1.18.2-40.1.80_mapped_official_1.18.2-recomp.jar%2379!/:?]
 	at net.minecraft.client.gui.screens.Screen.wrapScreenError(Screen.java:528) ~[forge-1.18.2-40.1.80_mapped_official_1.18.2-recomp.jar%2379!/:?]
@@ -154,10 +208,9 @@ com.google.gson.JsonSyntaxException: Unknown item 'farmersdelight:onion'
 	at net.minecraft.client.MouseHandler.lambda$setup$5(MouseHandler.java:184) ~[forge-1.18.2-40.1.80_mapped_official_1.18.2-recomp.jar%2379!/:?]
 	at org.lwjgl.glfw.GLFWMouseButtonCallbackI.callback(GLFWMouseButtonCallbackI.java:36) ~[lwjgl-glfw-3.2.2.jar%2357!/:build 10]
 	at org.lwjgl.system.JNI.invokeV(Native Method) ~[lwjgl-3.2.2.jar%2363!/:build 10]
-	at org.lwjgl.glfw.GLFW.glfwPollEvents(GLFW.java:3101) ~[lwjgl-glfw-3.2.2.jar%2357!/:build 10]
-	at com.mojang.blaze3d.systems.RenderSystem.flipFrame(RenderSystem.java:168) ~[forge-1.18.2-40.1.80_mapped_official_1.18.2-recomp.jar%2379!/:?]
-	at com.mojang.blaze3d.platform.Window.updateDisplay(Window.java:333) ~[forge-1.18.2-40.1.80_mapped_official_1.18.2-recomp.jar%2379!/:?]
-	at net.minecraft.client.Minecraft.runTick(Minecraft.java:1068) ~[forge-1.18.2-40.1.80_mapped_official_1.18.2-recomp.jar%2379!/:?]
+	at org.lwjgl.glfw.GLFW.glfwWaitEventsTimeout(GLFW.java:3174) ~[lwjgl-glfw-3.2.2.jar%2357!/:build 10]
+	at com.mojang.blaze3d.systems.RenderSystem.limitDisplayFPS(RenderSystem.java:187) ~[forge-1.18.2-40.1.80_mapped_official_1.18.2-recomp.jar%2379!/:?]
+	at net.minecraft.client.Minecraft.runTick(Minecraft.java:1071) ~[forge-1.18.2-40.1.80_mapped_official_1.18.2-recomp.jar%2379!/:?]
 	at net.minecraft.client.Minecraft.run(Minecraft.java:665) ~[forge-1.18.2-40.1.80_mapped_official_1.18.2-recomp.jar%2379!/:?]
 	at net.minecraft.client.main.Main.main(Main.java:205) ~[forge-1.18.2-40.1.80_mapped_official_1.18.2-recomp.jar%2379!/:?]
 	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
@@ -173,7 +226,7 @@ com.google.gson.JsonSyntaxException: Unknown item 'farmersdelight:onion'
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) [modlauncher-9.1.3.jar%2311!/:?]
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) [modlauncher-9.1.3.jar%2311!/:?]
 	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:149) [bootstraplauncher-1.0.0.jar:?]
-[01Juni2023 18:54:23.094] [Render thread/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe roastedonions:roastedonion_from_smelting
+[02Juni2023 19:33:28.993] [Render thread/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe roastedonions:roastedonion_from_smelting
 com.google.gson.JsonSyntaxException: Unknown item 'farmersdelight:onion'
 	at net.minecraft.world.item.crafting.ShapedRecipe.lambda$itemFromJson$2(ShapedRecipe.java:276) ~[forge-1.18.2-40.1.80_mapped_official_1.18.2-recomp.jar%2379!/:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -198,11 +251,12 @@ com.google.gson.JsonSyntaxException: Unknown item 'farmersdelight:onion'
 	at net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:126) ~[forge-1.18.2-40.1.80_mapped_official_1.18.2-recomp.jar%2379!/:?]
 	at net.minecraft.client.Minecraft.makeWorldStem(Minecraft.java:2082) ~[forge-1.18.2-40.1.80_mapped_official_1.18.2-recomp.jar%2379!/:?]
 	at net.minecraft.client.Minecraft.doLoadLevel(Minecraft.java:1909) ~[forge-1.18.2-40.1.80_mapped_official_1.18.2-recomp.jar%2379!/:?]
-	at net.minecraft.client.Minecraft.loadLevel(Minecraft.java:1873) ~[forge-1.18.2-40.1.80_mapped_official_1.18.2-recomp.jar%2379!/:?]
-	at net.minecraft.client.gui.screens.worldselection.WorldSelectionList$WorldListEntry.loadWorld(WorldSelectionList.java:473) ~[forge-1.18.2-40.1.80_mapped_official_1.18.2-recomp.jar%2379!/:?]
-	at net.minecraft.client.gui.screens.worldselection.WorldSelectionList$WorldListEntry.joinWorld(WorldSelectionList.java:330) ~[forge-1.18.2-40.1.80_mapped_official_1.18.2-recomp.jar%2379!/:?]
-	at net.minecraft.client.gui.screens.worldselection.WorldSelectionList$WorldListEntry.mouseClicked(WorldSelectionList.java:257) ~[forge-1.18.2-40.1.80_mapped_official_1.18.2-recomp.jar%2379!/:?]
-	at net.minecraft.client.gui.components.AbstractSelectionList.mouseClicked(AbstractSelectionList.java:323) ~[forge-1.18.2-40.1.80_mapped_official_1.18.2-recomp.jar%2379!/:?]
+	at net.minecraft.client.Minecraft.createLevel(Minecraft.java:1877) ~[forge-1.18.2-40.1.80_mapped_official_1.18.2-recomp.jar%2379!/:?]
+	at net.minecraft.client.gui.screens.worldselection.CreateWorldScreen.onCreate(CreateWorldScreen.java:246) ~[forge-1.18.2-40.1.80_mapped_official_1.18.2-recomp.jar%2379!/:?]
+	at net.minecraft.client.gui.screens.worldselection.CreateWorldScreen.lambda$init$13(CreateWorldScreen.java:195) ~[forge-1.18.2-40.1.80_mapped_official_1.18.2-recomp.jar%2379!/:?]
+	at net.minecraft.client.gui.components.Button.onPress(Button.java:29) ~[forge-1.18.2-40.1.80_mapped_official_1.18.2-recomp.jar%2379!/:?]
+	at net.minecraft.client.gui.components.AbstractButton.onClick(AbstractButton.java:17) ~[forge-1.18.2-40.1.80_mapped_official_1.18.2-recomp.jar%2379!/:?]
+	at net.minecraft.client.gui.components.AbstractWidget.mouseClicked(AbstractWidget.java:111) ~[forge-1.18.2-40.1.80_mapped_official_1.18.2-recomp.jar%2379!/:?]
 	at net.minecraft.client.gui.components.events.ContainerEventHandler.mouseClicked(ContainerEventHandler.java:28) ~[forge-1.18.2-40.1.80_mapped_official_1.18.2-recomp.jar%2379!/:?]
 	at net.minecraft.client.MouseHandler.lambda$onPress$0(MouseHandler.java:88) ~[forge-1.18.2-40.1.80_mapped_official_1.18.2-recomp.jar%2379!/:?]
 	at net.minecraft.client.gui.screens.Screen.wrapScreenError(Screen.java:528) ~[forge-1.18.2-40.1.80_mapped_official_1.18.2-recomp.jar%2379!/:?]
@@ -212,10 +266,9 @@ com.google.gson.JsonSyntaxException: Unknown item 'farmersdelight:onion'
 	at net.minecraft.client.MouseHandler.lambda$setup$5(MouseHandler.java:184) ~[forge-1.18.2-40.1.80_mapped_official_1.18.2-recomp.jar%2379!/:?]
 	at org.lwjgl.glfw.GLFWMouseButtonCallbackI.callback(GLFWMouseButtonCallbackI.java:36) ~[lwjgl-glfw-3.2.2.jar%2357!/:build 10]
 	at org.lwjgl.system.JNI.invokeV(Native Method) ~[lwjgl-3.2.2.jar%2363!/:build 10]
-	at org.lwjgl.glfw.GLFW.glfwPollEvents(GLFW.java:3101) ~[lwjgl-glfw-3.2.2.jar%2357!/:build 10]
-	at com.mojang.blaze3d.systems.RenderSystem.flipFrame(RenderSystem.java:168) ~[forge-1.18.2-40.1.80_mapped_official_1.18.2-recomp.jar%2379!/:?]
-	at com.mojang.blaze3d.platform.Window.updateDisplay(Window.java:333) ~[forge-1.18.2-40.1.80_mapped_official_1.18.2-recomp.jar%2379!/:?]
-	at net.minecraft.client.Minecraft.runTick(Minecraft.java:1068) ~[forge-1.18.2-40.1.80_mapped_official_1.18.2-recomp.jar%2379!/:?]
+	at org.lwjgl.glfw.GLFW.glfwWaitEventsTimeout(GLFW.java:3174) ~[lwjgl-glfw-3.2.2.jar%2357!/:build 10]
+	at com.mojang.blaze3d.systems.RenderSystem.limitDisplayFPS(RenderSystem.java:187) ~[forge-1.18.2-40.1.80_mapped_official_1.18.2-recomp.jar%2379!/:?]
+	at net.minecraft.client.Minecraft.runTick(Minecraft.java:1071) ~[forge-1.18.2-40.1.80_mapped_official_1.18.2-recomp.jar%2379!/:?]
 	at net.minecraft.client.Minecraft.run(Minecraft.java:665) ~[forge-1.18.2-40.1.80_mapped_official_1.18.2-recomp.jar%2379!/:?]
 	at net.minecraft.client.main.Main.main(Main.java:205) ~[forge-1.18.2-40.1.80_mapped_official_1.18.2-recomp.jar%2379!/:?]
 	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
@@ -231,7 +284,7 @@ com.google.gson.JsonSyntaxException: Unknown item 'farmersdelight:onion'
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) [modlauncher-9.1.3.jar%2311!/:?]
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) [modlauncher-9.1.3.jar%2311!/:?]
 	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:149) [bootstraplauncher-1.0.0.jar:?]
-[01Juni2023 18:54:23.101] [Render thread/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe roastedonions:blue_spandauer
+[02Juni2023 19:33:28.996] [Render thread/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe roastedonions:blue_spandauer
 com.google.gson.JsonSyntaxException: Unknown item 'byg:blueberries'
 	at net.minecraft.world.item.crafting.ShapedRecipe.lambda$itemFromJson$2(ShapedRecipe.java:276) ~[forge-1.18.2-40.1.80_mapped_official_1.18.2-recomp.jar%2379!/:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -257,11 +310,12 @@ com.google.gson.JsonSyntaxException: Unknown item 'byg:blueberries'
 	at net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:126) ~[forge-1.18.2-40.1.80_mapped_official_1.18.2-recomp.jar%2379!/:?]
 	at net.minecraft.client.Minecraft.makeWorldStem(Minecraft.java:2082) ~[forge-1.18.2-40.1.80_mapped_official_1.18.2-recomp.jar%2379!/:?]
 	at net.minecraft.client.Minecraft.doLoadLevel(Minecraft.java:1909) ~[forge-1.18.2-40.1.80_mapped_official_1.18.2-recomp.jar%2379!/:?]
-	at net.minecraft.client.Minecraft.loadLevel(Minecraft.java:1873) ~[forge-1.18.2-40.1.80_mapped_official_1.18.2-recomp.jar%2379!/:?]
-	at net.minecraft.client.gui.screens.worldselection.WorldSelectionList$WorldListEntry.loadWorld(WorldSelectionList.java:473) ~[forge-1.18.2-40.1.80_mapped_official_1.18.2-recomp.jar%2379!/:?]
-	at net.minecraft.client.gui.screens.worldselection.WorldSelectionList$WorldListEntry.joinWorld(WorldSelectionList.java:330) ~[forge-1.18.2-40.1.80_mapped_official_1.18.2-recomp.jar%2379!/:?]
-	at net.minecraft.client.gui.screens.worldselection.WorldSelectionList$WorldListEntry.mouseClicked(WorldSelectionList.java:257) ~[forge-1.18.2-40.1.80_mapped_official_1.18.2-recomp.jar%2379!/:?]
-	at net.minecraft.client.gui.components.AbstractSelectionList.mouseClicked(AbstractSelectionList.java:323) ~[forge-1.18.2-40.1.80_mapped_official_1.18.2-recomp.jar%2379!/:?]
+	at net.minecraft.client.Minecraft.createLevel(Minecraft.java:1877) ~[forge-1.18.2-40.1.80_mapped_official_1.18.2-recomp.jar%2379!/:?]
+	at net.minecraft.client.gui.screens.worldselection.CreateWorldScreen.onCreate(CreateWorldScreen.java:246) ~[forge-1.18.2-40.1.80_mapped_official_1.18.2-recomp.jar%2379!/:?]
+	at net.minecraft.client.gui.screens.worldselection.CreateWorldScreen.lambda$init$13(CreateWorldScreen.java:195) ~[forge-1.18.2-40.1.80_mapped_official_1.18.2-recomp.jar%2379!/:?]
+	at net.minecraft.client.gui.components.Button.onPress(Button.java:29) ~[forge-1.18.2-40.1.80_mapped_official_1.18.2-recomp.jar%2379!/:?]
+	at net.minecraft.client.gui.components.AbstractButton.onClick(AbstractButton.java:17) ~[forge-1.18.2-40.1.80_mapped_official_1.18.2-recomp.jar%2379!/:?]
+	at net.minecraft.client.gui.components.AbstractWidget.mouseClicked(AbstractWidget.java:111) ~[forge-1.18.2-40.1.80_mapped_official_1.18.2-recomp.jar%2379!/:?]
 	at net.minecraft.client.gui.components.events.ContainerEventHandler.mouseClicked(ContainerEventHandler.java:28) ~[forge-1.18.2-40.1.80_mapped_official_1.18.2-recomp.jar%2379!/:?]
 	at net.minecraft.client.MouseHandler.lambda$onPress$0(MouseHandler.java:88) ~[forge-1.18.2-40.1.80_mapped_official_1.18.2-recomp.jar%2379!/:?]
 	at net.minecraft.client.gui.screens.Screen.wrapScreenError(Screen.java:528) ~[forge-1.18.2-40.1.80_mapped_official_1.18.2-recomp.jar%2379!/:?]
@@ -271,10 +325,9 @@ com.google.gson.JsonSyntaxException: Unknown item 'byg:blueberries'
 	at net.minecraft.client.MouseHandler.lambda$setup$5(MouseHandler.java:184) ~[forge-1.18.2-40.1.80_mapped_official_1.18.2-recomp.jar%2379!/:?]
 	at org.lwjgl.glfw.GLFWMouseButtonCallbackI.callback(GLFWMouseButtonCallbackI.java:36) ~[lwjgl-glfw-3.2.2.jar%2357!/:build 10]
 	at org.lwjgl.system.JNI.invokeV(Native Method) ~[lwjgl-3.2.2.jar%2363!/:build 10]
-	at org.lwjgl.glfw.GLFW.glfwPollEvents(GLFW.java:3101) ~[lwjgl-glfw-3.2.2.jar%2357!/:build 10]
-	at com.mojang.blaze3d.systems.RenderSystem.flipFrame(RenderSystem.java:168) ~[forge-1.18.2-40.1.80_mapped_official_1.18.2-recomp.jar%2379!/:?]
-	at com.mojang.blaze3d.platform.Window.updateDisplay(Window.java:333) ~[forge-1.18.2-40.1.80_mapped_official_1.18.2-recomp.jar%2379!/:?]
-	at net.minecraft.client.Minecraft.runTick(Minecraft.java:1068) ~[forge-1.18.2-40.1.80_mapped_official_1.18.2-recomp.jar%2379!/:?]
+	at org.lwjgl.glfw.GLFW.glfwWaitEventsTimeout(GLFW.java:3174) ~[lwjgl-glfw-3.2.2.jar%2357!/:build 10]
+	at com.mojang.blaze3d.systems.RenderSystem.limitDisplayFPS(RenderSystem.java:187) ~[forge-1.18.2-40.1.80_mapped_official_1.18.2-recomp.jar%2379!/:?]
+	at net.minecraft.client.Minecraft.runTick(Minecraft.java:1071) ~[forge-1.18.2-40.1.80_mapped_official_1.18.2-recomp.jar%2379!/:?]
 	at net.minecraft.client.Minecraft.run(Minecraft.java:665) ~[forge-1.18.2-40.1.80_mapped_official_1.18.2-recomp.jar%2379!/:?]
 	at net.minecraft.client.main.Main.main(Main.java:205) ~[forge-1.18.2-40.1.80_mapped_official_1.18.2-recomp.jar%2379!/:?]
 	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
@@ -290,100 +343,89 @@ com.google.gson.JsonSyntaxException: Unknown item 'byg:blueberries'
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) [modlauncher-9.1.3.jar%2311!/:?]
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) [modlauncher-9.1.3.jar%2311!/:?]
 	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:149) [bootstraplauncher-1.0.0.jar:?]
-[01Juni2023 18:54:23.115] [Render thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 7 recipes
-[01Juni2023 18:54:31.277] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1141 advancements
-[01Juni2023 18:54:33.830] [Render thread/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[01Juni2023 18:54:34.467] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Starting integrated minecraft server version 1.18.2
-[01Juni2023 18:54:34.468] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
-[01Juni2023 18:54:36.116] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
-[01Juni2023 18:54:39.530] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preepayrin spawn ayyrea: 0%
-[01Juni2023 18:54:39.531] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preepayrin spawn ayyrea: 0%
-[01Juni2023 18:54:39.681] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preepayrin spawn ayyrea: 0%
-[01Juni2023 18:54:39.864] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preepayrin spawn ayyrea: 0%
-[01Juni2023 18:54:39.864] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preepayrin spawn ayyrea: 0%
-[01Juni2023 18:54:39.865] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preepayrin spawn ayyrea: 0%
-[01Juni2023 18:54:39.865] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preepayrin spawn ayyrea: 0%
-[01Juni2023 18:54:39.866] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preepayrin spawn ayyrea: 0%
-[01Juni2023 18:54:40.387] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preepayrin spawn ayyrea: 0%
-[01Juni2023 18:54:40.983] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preepayrin spawn ayyrea: 0%
-[01Juni2023 18:54:41.399] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preepayrin spawn ayyrea: 0%
-[01Juni2023 18:54:41.907] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preepayrin spawn ayyrea: 0%
-[01Juni2023 18:54:42.467] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preepayrin spawn ayyrea: 0%
-[01Juni2023 18:54:42.903] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preepayrin spawn ayyrea: 0%
-[01Juni2023 18:54:43.359] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preepayrin spawn ayyrea: 3%
-[01Juni2023 18:54:43.884] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preepayrin spawn ayyrea: 8%
-[01Juni2023 18:54:44.557] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preepayrin spawn ayyrea: 10%
-[01Juni2023 18:54:44.854] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preepayrin spawn ayyrea: 16%
-[01Juni2023 18:54:45.382] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preepayrin spawn ayyrea: 17%
-[01Juni2023 18:54:46.187] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preepayrin spawn ayyrea: 24%
-[01Juni2023 18:54:46.531] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preepayrin spawn ayyrea: 28%
-[01Juni2023 18:54:47.031] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preepayrin spawn ayyrea: 38%
-[01Juni2023 18:54:47.471] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preepayrin spawn ayyrea: 38%
-[01Juni2023 18:54:47.988] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preepayrin spawn ayyrea: 48%
-[01Juni2023 18:54:48.397] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preepayrin spawn ayyrea: 68%
-[01Juni2023 18:54:49.371] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preepayrin spawn ayyrea: 94%
-[01Juni2023 18:54:49.371] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preepayrin spawn ayyrea: 94%
-[01Juni2023 18:54:51.157] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
-[01Juni2023 18:54:51.161] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 14815 ms
-[01Juni2023 18:54:53.165] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing view distance to 8, from 10
-[01Juni2023 18:54:53.173] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing simulation distance to 6, from 0
-[01Juni2023 18:54:53.331] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2073ms or 41 ticks behind
-[01Juni2023 18:54:54.451] [Render thread/WARN] [io.netty.util.internal.SystemPropertyUtil/]: Unable to parse the boolean system property 'java.net.preferIPv6Addresses':system - using the default value: false
-[01Juni2023 18:54:57.711] [Netty Local Client IO #0/INFO] [net.minecraftforge.network.NetworkHooks/]: Connected to a modded server.
-[01Juni2023 18:54:57.933] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@3a804694
-[01Juni2023 18:54:58.088] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Dev[local:E:5e376c9d] logged in with entity id 20 at (-107.21602878361061, -60.0, -19.418809166000027)
-[01Juni2023 18:54:58.622] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev joind teh gaem
-[01Juni2023 18:55:01.771] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 22 advancements
-[01Juni2023 18:55:05.894] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
-[01Juni2023 18:55:07.080] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
-[01Juni2023 18:55:07.821] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
-[01Juni2023 18:55:07.863] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
-[01Juni2023 18:55:24.509] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
-[01Juni2023 18:55:24.650] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
-[01Juni2023 18:55:24.659] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
-[01Juni2023 18:55:24.662] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
-[01Juni2023 18:55:36.120] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2313ms or 46 ticks behind
-[01Juni2023 18:55:36.120] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
-[01Juni2023 18:55:36.155] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
-[01Juni2023 18:55:36.179] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
-[01Juni2023 18:55:36.183] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
-[01Juni2023 18:56:21.158] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
-[01Juni2023 18:56:21.206] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
-[01Juni2023 18:56:21.212] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
-[01Juni2023 18:56:21.214] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
-[01Juni2023 18:56:26.559] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
-[01Juni2023 18:56:27.658] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
-[01Juni2023 18:56:27.664] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
-[01Juni2023 18:56:27.666] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
-[01Juni2023 18:56:30.008] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
-[01Juni2023 18:56:30.961] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
-[01Juni2023 18:56:30.973] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
-[01Juni2023 18:56:30.982] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
-[01Juni2023 18:58:26.328] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 23 advancements
-[01Juni2023 18:58:51.429] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 25 advancements
-[01Juni2023 19:00:34.308] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
-[01Juni2023 19:00:34.479] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
-[01Juni2023 19:00:34.492] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
-[01Juni2023 19:00:34.498] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
-[01Juni2023 19:00:36.259] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
-[01Juni2023 19:00:36.279] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
-[01Juni2023 19:00:36.286] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
-[01Juni2023 19:00:36.289] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
-[01Juni2023 19:00:39.909] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
-[01Juni2023 19:00:39.931] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
-[01Juni2023 19:00:39.940] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
-[01Juni2023 19:00:39.943] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
-[01Juni2023 19:00:40.567] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Dev lost connection: CYA
-[01Juni2023 19:00:40.568] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev leeft teh gaem
-[01Juni2023 19:00:40.589] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Stopping singleplayer server as player logged out
-[01Juni2023 19:00:40.610] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
-[01Juni2023 19:00:40.612] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
-[01Juni2023 19:00:40.612] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
-[01Juni2023 19:00:42.548] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
-[01Juni2023 19:00:51.487] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
-[01Juni2023 19:00:51.490] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
-[01Juni2023 19:00:51.528] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (New World): All chunks are saved
-[01Juni2023 19:00:51.528] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[01Juni2023 19:00:51.529] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[01Juni2023 19:00:51.529] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
-[01Juni2023 19:01:39.778] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Stopping!
+[02Juni2023 19:33:29.006] [Render thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 7 recipes
+[02Juni2023 19:33:30.487] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1141 advancements
+[02Juni2023 19:33:30.947] [Render thread/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[02Juni2023 19:33:30.981] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Starting integrated minecraft server version 1.18.2
+[02Juni2023 19:33:30.982] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[02Juni2023 19:33:31.063] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file .\saves\Roasted\serverconfig\forge-server.toml is not correct. Correcting
+[02Juni2023 19:33:31.065] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server was corrected from null to its default, SimpleCommentedConfig:{}. 
+[02Juni2023 19:33:31.065] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.removeErroringBlockEntities was corrected from null to its default, false. 
+[02Juni2023 19:33:31.066] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.removeErroringEntities was corrected from null to its default, false. 
+[02Juni2023 19:33:31.066] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.fullBoundingBoxLadders was corrected from null to its default, false. 
+[02Juni2023 19:33:31.066] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.zombieBaseSummonChance was corrected from null to its default, 0.1. 
+[02Juni2023 19:33:31.066] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.zombieBabyChance was corrected from null to its default, 0.05. 
+[02Juni2023 19:33:31.066] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.treatEmptyTagsAsAir was corrected from null to its default, false. 
+[02Juni2023 19:33:31.066] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.skipEmptyShapelessCheck was corrected from null to its default, true. 
+[02Juni2023 19:33:31.066] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.fixAdvancementLoading was corrected from null to its default, true. 
+[02Juni2023 19:33:31.067] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.permissionHandler was corrected from null to its default, forge:default_handler. 
+[02Juni2023 19:33:31.752] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[02Juni2023 19:33:32.584] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preepayrin spawn ayyrea: 0%
+[02Juni2023 19:33:32.584] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preepayrin spawn ayyrea: 0%
+[02Juni2023 19:33:33.152] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preepayrin spawn ayyrea: 0%
+[02Juni2023 19:33:33.349] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preepayrin spawn ayyrea: 2%
+[02Juni2023 19:33:34.341] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preepayrin spawn ayyrea: 4%
+[02Juni2023 19:33:34.344] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preepayrin spawn ayyrea: 4%
+[02Juni2023 19:33:34.919] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preepayrin spawn ayyrea: 4%
+[02Juni2023 19:33:35.387] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preepayrin spawn ayyrea: 4%
+[02Juni2023 19:33:35.872] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preepayrin spawn ayyrea: 16%
+[02Juni2023 19:33:37.371] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preepayrin spawn ayyrea: 16%
+[02Juni2023 19:33:37.372] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preepayrin spawn ayyrea: 16%
+[02Juni2023 19:33:37.372] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preepayrin spawn ayyrea: 16%
+[02Juni2023 19:33:37.925] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preepayrin spawn ayyrea: 63%
+[02Juni2023 19:33:38.418] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preepayrin spawn ayyrea: 82%
+[02Juni2023 19:33:38.835] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preepayrin spawn ayyrea: 94%
+[02Juni2023 19:33:38.884] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[02Juni2023 19:33:38.885] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 7054 ms
+[02Juni2023 19:33:38.915] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing view distance to 8, from 10
+[02Juni2023 19:33:38.918] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing simulation distance to 6, from 0
+[02Juni2023 19:33:39.142] [Render thread/WARN] [io.netty.util.internal.SystemPropertyUtil/]: Unable to parse the boolean system property 'java.net.preferIPv6Addresses':system - using the default value: false
+[02Juni2023 19:33:41.137] [Netty Local Client IO #0/INFO] [net.minecraftforge.network.NetworkHooks/]: Connected to a modded server.
+[02Juni2023 19:33:41.160] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@7e1802b2
+[02Juni2023 19:33:41.178] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Dev[local:E:673c621e] logged in with entity id 5 at (1.5, -60.0, -6.5)
+[02Juni2023 19:33:41.212] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev joind teh gaem
+[02Juni2023 19:33:41.728] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 0 advancements
+[02Juni2023 19:34:11.886] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
+[02Juni2023 19:34:11.900] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Roasted]'/minecraft:overworld
+[02Juni2023 19:34:11.908] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Roasted]'/minecraft:the_end
+[02Juni2023 19:34:11.910] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Roasted]'/minecraft:the_nether
+[02Juni2023 19:34:13.685] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
+[02Juni2023 19:34:13.697] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Roasted]'/minecraft:overworld
+[02Juni2023 19:34:13.702] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Roasted]'/minecraft:the_end
+[02Juni2023 19:34:13.703] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Roasted]'/minecraft:the_nether
+[02Juni2023 19:34:14.785] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
+[02Juni2023 19:34:14.798] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Roasted]'/minecraft:overworld
+[02Juni2023 19:34:14.801] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Roasted]'/minecraft:the_end
+[02Juni2023 19:34:14.802] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Roasted]'/minecraft:the_nether
+[02Juni2023 19:34:16.135] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
+[02Juni2023 19:34:16.149] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Roasted]'/minecraft:overworld
+[02Juni2023 19:34:16.151] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Roasted]'/minecraft:the_end
+[02Juni2023 19:34:16.152] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Roasted]'/minecraft:the_nether
+[02Juni2023 19:34:32.985] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
+[02Juni2023 19:34:32.991] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Roasted]'/minecraft:overworld
+[02Juni2023 19:34:32.993] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Roasted]'/minecraft:the_end
+[02Juni2023 19:34:32.994] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Roasted]'/minecraft:the_nether
+[02Juni2023 19:35:13.155] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 4 advancements
+[02Juni2023 19:35:26.002] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 5 advancements
+[02Juni2023 19:35:28.363] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev haz maed da atfancemend [Hot Stuffz]
+[02Juni2023 19:35:28.384] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [CHAT] Dev haz maed da atfancemend [Hot Stuffz]
+[02Juni2023 19:35:28.396] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 12 advancements
+[02Juni2023 19:36:19.490] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 12 advancements
+[02Juni2023 19:37:17.586] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
+[02Juni2023 19:37:17.599] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Roasted]'/minecraft:overworld
+[02Juni2023 19:37:17.603] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Roasted]'/minecraft:the_end
+[02Juni2023 19:37:17.604] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Roasted]'/minecraft:the_nether
+[02Juni2023 19:37:18.740] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Dev lost connection: CYA
+[02Juni2023 19:37:18.740] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev leeft teh gaem
+[02Juni2023 19:37:18.752] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Stopping singleplayer server as player logged out
+[02Juni2023 19:37:18.785] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[02Juni2023 19:37:18.785] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[02Juni2023 19:37:18.785] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[02Juni2023 19:37:19.694] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Roasted]'/minecraft:overworld
+[02Juni2023 19:37:19.731] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Roasted]'/minecraft:the_end
+[02Juni2023 19:37:19.732] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Roasted]'/minecraft:the_nether
+[02Juni2023 19:37:19.750] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (Roasted): All chunks are saved
+[02Juni2023 19:37:19.750] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[02Juni2023 19:37:19.750] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[02Juni2023 19:37:19.750] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
+[02Juni2023 19:37:21.062] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Stopping!

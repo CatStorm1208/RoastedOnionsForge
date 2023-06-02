@@ -33,7 +33,7 @@ public class roastedonions
 
     public static final RegistryObject<Item> golden_berries = ITEMS.register("golden_berries",
             () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_FOOD)
-                    .food(new FoodProperties.Builder().nutrition(10).saturationMod(10f).build())));
+                    .food(new FoodProperties.Builder().nutrition(11).saturationMod(10f).build())));
 
     public static final RegistryObject<Item> raw_sausage = ITEMS.register("raw_sausage",
             () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_FOOD)
@@ -46,6 +46,10 @@ public class roastedonions
     public static final RegistryObject<Item> hotdog = ITEMS.register("hotdog",
             () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_FOOD)
                     .food(new FoodProperties.Builder().nutrition(7).saturationMod(10f).build())));
+
+    public static final RegistryObject<Item> hotdog_with_ketchup = ITEMS.register("hotdog_with_ketchup",
+            () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_FOOD)
+                    .food(new FoodProperties.Builder().nutrition(8).saturationMod(10f).build())));
 
     public roastedonions()
     {
