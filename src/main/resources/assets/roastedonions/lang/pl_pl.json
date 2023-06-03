@@ -3,5 +3,11 @@
   "item.roastedonions.roastedonion": "Cebula Prażona",
   "item.roastedonions.blue_spandauer": "Niebieski Spandauer",
   "item.roastedonions.red_spandauer": "Czerwowy Spandauer",
-  "item.roastedonions.golden_berries": "Złote Niedźwiedzie"
+  "item.roastedonions.golden_berries": "Złote Niedźwiedzie",
+  "item.roastedonions.raw_sausage": "Surowa Kiełbasa",
+  "item.roastedonions.cooked_sausage": "Gotowana Kiełbasa",
+  "item.roastedonions.hotdog": "Hot-Dog",
+  "item.roastedonions.hotdog_with_ketchup": "Hot-Dog z Ketchup",
+  "item.roastedonions.pork_rind": "Skwarki",
+  "item.roastedonions.pig_fat": "Tłuszcz Wieprzowy"
 }

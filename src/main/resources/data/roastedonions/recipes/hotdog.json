@@ -1,21 +1,18 @@
 {
   "type": "minecraft:crafting_shapeless",
-  "pattern": [
-    "ØŁ ",
-    " X "
-  ],
-  "key": {
-    "Ł": {
-      "item": "roastedonions:cooked_sausage"
+  "ingredients": [
+    {
+      "item": "minecraft:bread"
     },
-    "Ø": {
+    {
       "item": "roastedonions:roastedonion"
     },
-    "X": {
-      "item": "minecraft:bread"
+    {
+      "item": "roastedonions:cooked_sausage"
     }
-  },
+  ],
   "result": {
-    "item": "roastedonions:hotdog"
+    "item": "roastedonions:hotdog",
+    "count": 1
   }
 }

@@ -15,7 +15,7 @@ plugins {
 }
 apply plugin: 'net.minecraftforge.gradle'
 
-version = '0.2.1'
+version = '0.3'
 group = 'de.catstorm.roastedonions' // http://maven.apache.org/guides/mini/guide-naming-conventions.html
 archivesBaseName = 'roastedonions'
 

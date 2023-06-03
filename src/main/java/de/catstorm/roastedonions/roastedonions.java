@@ -1,5 +1,7 @@
 package de.catstorm.roastedonions;
 
+import net.minecraft.world.effect.MobEffectInstance;
+import net.minecraft.world.effect.MobEffects;
 import net.minecraft.world.food.FoodProperties;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.Item;
@@ -12,7 +14,7 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 
-@SuppressWarnings("unused")
+@SuppressWarnings({"unused", "deprecation"})
 @Mod("roastedonions")
 public class roastedonions
 {
@@ -45,11 +47,18 @@ public class roastedonions
 
     public static final RegistryObject<Item> hotdog = ITEMS.register("hotdog",
             () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_FOOD)
-                    .food(new FoodProperties.Builder().nutrition(7).saturationMod(10f).build())));
+                    .food(new FoodProperties.Builder().nutrition(7).saturationMod(9f).build())));
 
     public static final RegistryObject<Item> hotdog_with_ketchup = ITEMS.register("hotdog_with_ketchup",
             () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_FOOD)
                     .food(new FoodProperties.Builder().nutrition(8).saturationMod(10f).build())));
+
+    public static final RegistryObject<Item> pig_fat = ITEMS.register("pig_fat",
+            () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
+
+    public static final RegistryObject<Item> pork_rind = ITEMS.register("pork_rind",
+            () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_FOOD)
+                    .food(new FoodProperties.Builder().nutrition(3).saturationMod(3.000001f).effect(new MobEffectInstance(MobEffects.CONFUSION, 1000, 4), 0.69f).build())));
 
     public roastedonions()
     {

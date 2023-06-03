@@ -3,5 +3,11 @@
   "item.roastedonions.roastedonion": "Rösti Zwiebel",
   "item.roastedonions.blue_spandauer": "Blauer Spandauer",
   "item.roastedonions.red_spandauer": "Roter Spandauer",
-  "item.roastedonions.golden_berries": "Goldene Beeren"
+  "item.roastedonions.golden_berries": "Goldene Beeren",
+  "item.roastedonions.raw_sausage": "Rohe Wurst",
+  "item.roastedonions.cooked_sausage": "Gekochte Wurst",
+  "item.roastedonions.hotdog": "Hot-Dog",
+  "item.roastedonions.hotdog_with_ketchup": "Hot-Dog Mit Ketchup",
+  "item.roastedonions.pork_rind": "Schwarte",
+  "item.roastedonions.pig_fat": "Schweinefett"
 }

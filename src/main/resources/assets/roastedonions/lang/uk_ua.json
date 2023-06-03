@@ -3,5 +3,11 @@
   "item.roastedonions.roastedonion": "Смажена Цибуля",
   "item.roastedonions.blue_spandauer": "Синій Спандауер",
   "item.roastedonions.red_spandauer": "Червоний Спандауер",
-  "item.roastedonions.golden_berries": "Золоті Ягоди"
+  "item.roastedonions.golden_berries": "Золоті Ягоди",
+  "item.roastedonions.raw_sausage": "Сира сосиска",
+  "item.roastedonions.cooked_sausage": "пожарена сосиска",
+  "item.roastedonions.hotdog": "Хот-Дог",
+  "item.roastedonions.hotdog_with_ketchup": "Хот-Дог з кетчупом",
+  "item.roastedonions.pork_rind": "Шкварки",
+  "item.roastedonions.pig_fat": "Сало"
 }
