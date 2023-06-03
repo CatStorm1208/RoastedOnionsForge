@@ -7,7 +7,7 @@ loaderVersion="[40,)"
 # Review your options at https://choosealicense.com/. All rights reserved is the default copyright stance, and is thus the default here.
 license="MIT license"
 # A URL to refer people to when problems occur with this mod
-issueTrackerURL="https://github.com/MinecraftForge/MinecraftForge/issues"
+issueTrackerURL="https://github.com/CatStorm1208/Roasted-Onions-Mod/issues"
 # If the mods defined in this file should show as separate resource packs
 showAsResourcePack=false
 
@@ -16,7 +16,7 @@ modId="roastedonions"
 version="0.3"
 displayName="roastedonions"
 updateJSONURL="https://minecraftforge.net/versions.json"
-displayURL="https://minecraftforge.net"
+displayURL="https://catstorm.de"
 #logoFile="logo.png"
 credits="CatStorms Cats: Naldush & Dalli as well as Fyndrix' lobster"
 authors="Programming by CatStorm, textures & idea by Fyndrix"

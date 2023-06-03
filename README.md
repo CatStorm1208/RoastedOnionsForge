@@ -8,7 +8,3 @@ Forge version: 40.1.80 or above
 Version 1.1.2 or above. Mandatory.
 ### Oh the biomes you'll go
 Version 1.4 or above. Not Mandatory.
-
-## Note
-This mod was designed purely for me and my friends, \
-use it at your own risk.
