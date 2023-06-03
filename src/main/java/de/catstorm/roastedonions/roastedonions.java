@@ -23,42 +23,42 @@ public class roastedonions
 
     public static final RegistryObject<Item> roastedonion = ITEMS.register("roastedonion",
             () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_FOOD)
-                    .food(new FoodProperties.Builder().nutrition(5).saturationMod(3.62f).build())));
+                    .food(new FoodProperties.Builder().nutrition(5).saturationMod(3.62f/20).build())));
 
     public static final RegistryObject<Item> blue_spandauer = ITEMS.register("blue_spandauer",
             () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_FOOD)
-                    .food(new FoodProperties.Builder().nutrition(7).saturationMod(10f).build())));
+                    .food(new FoodProperties.Builder().nutrition(7).saturationMod(10f/20).build())));
 
     public static final RegistryObject<Item> red_spandauer = ITEMS.register("red_spandauer",
             () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_FOOD)
-                    .food(new FoodProperties.Builder().nutrition(7).saturationMod(10f).build())));
+                    .food(new FoodProperties.Builder().nutrition(7).saturationMod(10f/20).build())));
 
     public static final RegistryObject<Item> golden_berries = ITEMS.register("golden_berries",
             () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_FOOD)
-                    .food(new FoodProperties.Builder().nutrition(11).saturationMod(10f).build())));
+                    .food(new FoodProperties.Builder().nutrition(11).saturationMod(10f/20).build())));
 
     public static final RegistryObject<Item> raw_sausage = ITEMS.register("raw_sausage",
             () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_FOOD)
-                    .food(new FoodProperties.Builder().nutrition(3).saturationMod(3.62f).build())));
+                    .food(new FoodProperties.Builder().nutrition(3).saturationMod(3.62f/20).build())));
 
     public static final RegistryObject<Item> cooked_sausage = ITEMS.register("cooked_sausage",
             () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_FOOD)
-                    .food(new FoodProperties.Builder().nutrition(5).saturationMod(7.35f).build())));
+                    .food(new FoodProperties.Builder().nutrition(5).saturationMod(7.35f/20).build())));
 
     public static final RegistryObject<Item> hotdog = ITEMS.register("hotdog",
             () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_FOOD)
-                    .food(new FoodProperties.Builder().nutrition(7).saturationMod(9f).build())));
+                    .food(new FoodProperties.Builder().nutrition(7).saturationMod(9f/20).build())));
 
     public static final RegistryObject<Item> hotdog_with_ketchup = ITEMS.register("hotdog_with_ketchup",
             () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_FOOD)
-                    .food(new FoodProperties.Builder().nutrition(8).saturationMod(10f).build())));
+                    .food(new FoodProperties.Builder().nutrition(8).saturationMod(10f/20).build())));
 
     public static final RegistryObject<Item> pig_fat = ITEMS.register("pig_fat",
             () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
 
     public static final RegistryObject<Item> pork_rind = ITEMS.register("pork_rind",
             () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_FOOD)
-                    .food(new FoodProperties.Builder().nutrition(3).saturationMod(3.000001f).effect(new MobEffectInstance(MobEffects.CONFUSION, 1000, 4), 0.69f).build())));
+                    .food(new FoodProperties.Builder().nutrition(3).saturationMod(3.000001f/20).effect(new MobEffectInstance(MobEffects.CONFUSION, 1000, 4), 0.69f).build())));
 
     public roastedonions()
     {
