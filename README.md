@@ -1,6 +1,6 @@
 <h1> Roasted Onions </h1>
 <h2> About </h2>
-"Roasted Onions" is a Minecraft mod that adds new food (mostly Danish cuisine). "Roasted Onions" supports Danish, German, American English, Lolcat, Polish and Ukranian. You can read the wiki via GitHub.
+"Roasted Onions" is a Minecraft mod that adds new food (mostly Danish cuisine). "Roasted Onions" supports Danish, German, American English, Lolcat, Polish and Ukranian.
 
 <h2> Dependencies </h2>
 This mod requires to use <a href="https://www.curseforge.com/minecraft/mc-mods/farmers-delight"> Farmers Delight</a> version 1.2 or above <br>

@@ -1,3 +1,4 @@
+//file:noinspection GroovyAssignabilityCheck
 buildscript {
     repositories {
         // These repositories are only for Gradle plugins, put any other repositories in the repository block further below
@@ -15,7 +16,7 @@ plugins {
 }
 apply plugin: 'net.minecraftforge.gradle'
 
-version = '1.0'
+version = '1.1'
 group = 'de.catstorm.roastedonions' // http://maven.apache.org/guides/mini/guide-naming-conventions.html
 archivesBaseName = 'roastedonions'
 
