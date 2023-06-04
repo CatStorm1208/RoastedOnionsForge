@@ -13,7 +13,7 @@ showAsResourcePack=false
 
 [[mods]]
 modId="roastedonions"
-version="0.3"
+version="1.0"
 displayName="roastedonions"
 updateJSONURL="https://minecraftforge.net/versions.json"
 displayURL="https://catstorm.de"

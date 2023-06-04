@@ -1,10 +1,7 @@
-# RoastedOnions
-This Forge-Mod adds delicious (mostly) Danish cuisine into the game.\
-Game version: 1.18.2
-Forge version: 40.1.80 or above
+<h1> Roasted Onions </h1>
+<h2> About </h2>
+"Roasted Onions" is a Minecraft mod that adds new food (mostly Danish cuisine). "Roasted Onions" supports Danish, German, American English, Lolcat, Polish and Ukranian. You can read the wiki via GitHub.
 
-## Dependencies
-### Farmers Delight
-Version 1.1.2 or above. Mandatory.
-### Oh the biomes you'll go
-Version 1.4 or above. Not Mandatory.
+<h2> Dependencies </h2>
+This mod requires to use <a href="https://www.curseforge.com/minecraft/mc-mods/farmers-delight"> Farmers Delight</a> version 1.2 or above <br>
+It optionally needs <a href="https://modrinth.com/mod/biomesyougo"> Oh The Biomes You'll Go </a> 1.4 or above
