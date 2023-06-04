@@ -32,7 +32,7 @@ side="BOTH"
 [[dependencies.roastedonions]]
 modId="minecraft"
 mandatory=true
-versionRange="[1.18.2,1.19)"
+versionRange="[1.18.2,)"
 ordering="NONE"
 side="BOTH"
 
