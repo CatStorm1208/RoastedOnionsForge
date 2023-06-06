@@ -18,6 +18,8 @@ import net.minecraftforge.registries.RegistryObject;
 @Mod("roastedonions")
 public class roastedonions
 {
+    //TODO add fr*nch translations
+
     public static final DeferredRegister<Item> ITEMS =
             DeferredRegister.create(ForgeRegistries.ITEMS, "roastedonions");
 
@@ -54,11 +56,12 @@ public class roastedonions
             .food(new FoodProperties.Builder().nutrition(8).saturationMod(10f/20).build())));
 
     public static final RegistryObject<Item> pig_fat = ITEMS.register("pig_fat",
-        () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
+        () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_FOOD)
+                .food(new FoodProperties.Builder().nutrition(3).saturationMod(3.000001f/20).effect(new MobEffectInstance(MobEffects.CONFUSION, 1000, 4), 0.95f).build())));
 
     public static final RegistryObject<Item> pork_rind = ITEMS.register("pork_rind",
         () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_FOOD)
-            .food(new FoodProperties.Builder().nutrition(3).saturationMod(3.000001f/20).effect(new MobEffectInstance(MobEffects.CONFUSION, 1000, 4), 0.69f).build())));
+            .food(new FoodProperties.Builder().nutrition(5).saturationMod(4.694201f/20).effect(new MobEffectInstance(MobEffects.CONFUSION, 1000, 4), 0.69f).build())));
 
     public roastedonions()
     {
