@@ -13,7 +13,7 @@ realmsNotifications:true
 reducedDebugInfo:false
 showSubtitles:false
 touchscreen:false
-fullscreen:true
+fullscreen:false
 bobView:true
 toggleCrouch:false
 toggleSprint:false
@@ -25,7 +25,7 @@ screenEffectScale:1.0
 fovEffectScale:1.0
 gamma:0.5
 renderDistance:8
-simulationDistance:6
+simulationDistance:5
 entityDistanceScaling:1.0
 guiScale:2
 particles:0
@@ -82,7 +82,7 @@ key_key.back:key.keyboard.s
 key_key.right:key.keyboard.d
 key_key.jump:key.keyboard.space
 key_key.sneak:key.keyboard.left.shift
-key_key.sprint:key.mouse.5
+key_key.sprint:key.keyboard.left.control
 key_key.drop:key.keyboard.q
 key_key.inventory:key.keyboard.e
 key_key.chat:key.keyboard.t

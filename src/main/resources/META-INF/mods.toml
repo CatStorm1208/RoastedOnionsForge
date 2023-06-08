@@ -13,7 +13,7 @@ showAsResourcePack=false
 
 [[mods]]
 modId="roastedonions"
-version="1.0"
+version="1.1"
 displayName="roastedonions"
 updateJSONURL="https://minecraftforge.net/versions.json"
 displayURL="https://catstorm.de"
@@ -32,13 +32,13 @@ side="BOTH"
 [[dependencies.roastedonions]]
 modId="minecraft"
 mandatory=true
-versionRange="[1.18.2,1.19)"
+versionRange="[1.18.2,)"
 ordering="NONE"
 side="BOTH"
 
 [[dependencies.roastedonions]]
 modId="farmersdelight"
-mandatory=true
+mandatory=true #TODO change for testing
 versionRange="[1.1.2,)"
 ordering="AFTER"
 side="BOTH"
