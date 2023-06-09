@@ -18,8 +18,6 @@ import net.minecraftforge.registries.RegistryObject;
 @Mod("roastedonions")
 public class roastedonions
 {
-    //TODO add fr*nch translations
-
     public static final DeferredRegister<Item> ITEMS =
             DeferredRegister.create(ForgeRegistries.ITEMS, "roastedonions");
 
