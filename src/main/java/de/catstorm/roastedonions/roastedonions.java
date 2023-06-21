@@ -61,6 +61,13 @@ public class roastedonions
         () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_FOOD)
             .food(new FoodProperties.Builder().nutrition(5).saturationMod(4.694201f/20).effect(new MobEffectInstance(MobEffects.CONFUSION, 1000, 4), 0.69f).build())));
 
+    public static final RegistryObject<Item> uncooked_klejner = ITEMS.register("uncooked_klejner",
+        () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_FOOD)));
+
+    public static final RegistryObject<Item> klejner = ITEMS.register("klejner",
+        () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_FOOD)
+            .food(new FoodProperties.Builder().nutrition(3).saturationMod(4.111111f/20).build())));
+
     public roastedonions()
     {
         final IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
