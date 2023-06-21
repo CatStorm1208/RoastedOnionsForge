@@ -8,5 +8,7 @@
   "item.roastedonions.hotdog": "Hot-Dog",
   "item.roastedonions.hotdog_with_ketchup": "Hot-Dog Mit Ketchup",
   "item.roastedonions.pig_fat": "Swienfett",
-  "item.roastedonions.pork_rind": "Swaart"
+  "item.roastedonions.pork_rind": "Swaart",
+  "item.roastedonions.uncooked_klejner": "Ungekökte Klejner",
+  "item.roastedonions.klejner": "Klejner"
 }

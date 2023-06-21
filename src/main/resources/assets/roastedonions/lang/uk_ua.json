@@ -8,5 +8,7 @@
   "item.roastedonions.hotdog": "Хот-Дог",
   "item.roastedonions.hotdog_with_ketchup": "Хот-Дог з кетчупом",
   "item.roastedonions.pig_fat": "Сало",
-  "item.roastedonions.pork_rind": "Шкварки"
+  "item.roastedonions.pork_rind": "Шкварки",
+  "item.roastedonions.uncooked_klejner": "Неприготовені клейнери",
+  "item.roastedonions.klejner": "Клейнери"
 }
