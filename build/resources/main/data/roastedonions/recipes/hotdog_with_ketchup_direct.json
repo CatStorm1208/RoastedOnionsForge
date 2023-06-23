@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:bread"
+    },
+    {
+      "item": "roastedonions:roastedonion"
+    },
+    {
+      "item": "farmersdelight:tomato"
+    },
+    {
+      "item": "roastedonions:cooked_sausage"
+    }
+  ],
+  "result": {
+    "item": "roastedonions:hotdog_with_ketchup",
+    "count": 1
+  }
+}

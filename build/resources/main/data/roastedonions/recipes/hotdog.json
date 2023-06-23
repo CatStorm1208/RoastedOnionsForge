@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:bread"
+    },
+    {
+      "item": "roastedonions:roastedonion"
+    },
+    {
+      "item": "roastedonions:cooked_sausage"
+    }
+  ],
+  "result": {
+    "item": "roastedonions:hotdog",
+    "count": 1
+  }
+}
