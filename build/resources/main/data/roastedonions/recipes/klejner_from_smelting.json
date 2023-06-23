@@ -1,9 +1,0 @@
-{
-  "type": "minecraft:smelting",
-  "ingredient": {
-    "item": "roastedonions:uncooked_klejner"
-  },
-  "result": "roastedonions:klejner",
-  "experience": 0.0,
-  "cookingtime": 80
-}

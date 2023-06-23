@@ -1,9 +1,0 @@
-{
-  "type": "minecraft:smelting",
-  "ingredient": {
-    "item": "farmersdelight:onion"
-  },
-  "result": "roastedonions:roastedonion",
-  "experience": 0.0,
-  "cookingtime": 100
-}

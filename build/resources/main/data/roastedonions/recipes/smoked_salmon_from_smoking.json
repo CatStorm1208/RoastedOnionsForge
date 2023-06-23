@@ -1,9 +1,0 @@
-{
-  "type": "minecraft:smoking",
-  "ingredient": {
-    "item": "roastedonions:salmon_fillet"
-  },
-  "result": "roastedonions:cooked_salmon",
-  "experience": 0.0,
-  "cookingtime": 100
-}
