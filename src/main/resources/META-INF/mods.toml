@@ -38,7 +38,7 @@ side="BOTH"
 
 [[dependencies.roastedonions]]
 modId="farmersdelight"
-mandatory=true #TODO change for testing
+mandatory=false #TODO change for testing
 versionRange="[1.1.2,)"
 ordering="AFTER"
 side="BOTH"

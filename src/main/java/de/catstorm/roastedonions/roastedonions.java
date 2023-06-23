@@ -68,6 +68,18 @@ public class roastedonions
         () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_FOOD)
             .food(new FoodProperties.Builder().nutrition(3).saturationMod(4.111111f/20).build())));
 
+    public static final RegistryObject<Item> salmon_fillet = ITEMS.register("salmon_fillet",
+        () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_FOOD)
+            .food(new FoodProperties.Builder().nutrition(1).saturationMod(1f/20).build())));
+
+    public static final RegistryObject<Item> smoked_salmon = ITEMS.register("smoked_salmon",
+        () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_FOOD)
+            .food(new FoodProperties.Builder().nutrition(4).saturationMod(4f/20).build())));
+
+    public static final RegistryObject<Item> smorrebrod = ITEMS.register("smorrebrod",
+        () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_FOOD)
+            .food(new FoodProperties.Builder().nutrition(9).saturationMod(10f/20).build())));
+
     public roastedonions()
     {
         final IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
