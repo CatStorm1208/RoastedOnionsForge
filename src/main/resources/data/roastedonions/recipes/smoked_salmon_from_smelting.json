@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "roastedonions:salmon_fillet"
+  },
+  "result": "roastedonions:smoked_salmon",
+  "experience": 0.0,
+  "cookingtime": 100
+}

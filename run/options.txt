@@ -13,7 +13,7 @@ realmsNotifications:true
 reducedDebugInfo:false
 showSubtitles:false
 touchscreen:false
-fullscreen:true
+fullscreen:false
 bobView:true
 toggleCrouch:false
 toggleSprint:false
@@ -36,10 +36,10 @@ ao:2
 prioritizeChunkUpdates:0
 biomeBlendRadius:2
 renderClouds:true
-resourcePacks:["vanilla","mod_resources"]
+resourcePacks:["mod_resources","vanilla"]
 incompatibleResourcePacks:[]
 lastServer:
-lang:fi_fi
+lang:en_nz
 soundDevice:
 chatVisibility:0
 chatOpacity:1.0
