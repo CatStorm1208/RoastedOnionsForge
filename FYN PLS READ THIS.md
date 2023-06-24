@@ -22,5 +22,4 @@ into (usually master).
 
 <h1> Important </h1>
 Make sure to update the version number of mods.toml (line 16) and of
-build.gradle (line 19). These versions must be identical. Versions with an underscore
-must not be declared in those files. For example: Version of mod 1.2_01 -> version in files 1.2
+build.gradle (line 19). These versions must be identical.
