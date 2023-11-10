@@ -80,14 +80,6 @@ public class roastedonions
         () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_FOOD)
             .food(new FoodProperties.Builder().nutrition(9).saturationMod(10f/20).build())));
 
-    public static final RegistryObject<Item> roe = ITEMS.register("roe",
-            () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_FOOD)
-                    .food(new FoodProperties.Builder().nutrition(2).saturationMod(0.4f/20).build())));
-
-    public static final RegistryObject<Item> bread_with_roe = ITEMS.register("bread_with_roe",
-            () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_FOOD)
-                    .food(new FoodProperties.Builder().nutrition(7).saturationMod(7f/20).build())));
-
     public roastedonions()
     {
         final IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();

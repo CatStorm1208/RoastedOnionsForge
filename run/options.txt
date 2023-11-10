@@ -39,7 +39,7 @@ renderClouds:true
 resourcePacks:["mod_resources","vanilla"]
 incompatibleResourcePacks:[]
 lastServer:
-lang:da_dk
+lang:en_nz
 soundDevice:
 chatVisibility:0
 chatOpacity:1.0
