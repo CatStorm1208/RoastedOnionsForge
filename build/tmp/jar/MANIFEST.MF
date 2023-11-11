@@ -1,9 +1,0 @@
-Manifest-Version: 1.0
-Specification-Title: roastedonions
-Specification-Vendor: roastedonionssareus
-Specification-Version: 1
-Implementation-Title: Roated_Onions_v2
-Implementation-Version: 1.3
-Implementation-Vendor: roastedonionssareus
-Implementation-Timestamp: 2023-06-24T09:31:13+0200
-
