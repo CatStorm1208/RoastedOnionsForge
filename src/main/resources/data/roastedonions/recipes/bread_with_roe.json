@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " + ",
+        " X "
+    ],
+    "key": {
+        "X": {
+            "item": "minecraft:bread"
+        },
+        "+": {
+            "item": "roastedonions:roe"
+        }
+    },
+    "result": {
+        "item": "roastedonions:bread_with_roe",
+        "count": 1
+    }
+}
