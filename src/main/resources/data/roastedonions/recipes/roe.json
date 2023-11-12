@@ -1,0 +1,12 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "minecraft:cod"
+        }
+    ],
+    "result": {
+        "item": "roastedonions:roe",
+        "count": 1
+    }
+}
