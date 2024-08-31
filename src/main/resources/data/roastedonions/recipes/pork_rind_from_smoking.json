@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smoking",
+  "ingredient": {
+    "item": "roastedonions:pig_fat"
+  },
+  "result": "roastedonions:pork_rind",
+  "experience": 0.0,
+  "cookingtime": 100
+}
