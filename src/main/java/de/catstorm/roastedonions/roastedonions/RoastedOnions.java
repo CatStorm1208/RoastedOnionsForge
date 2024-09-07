@@ -93,6 +93,14 @@ public class RoastedOnions {
         () -> new Item(new Item.Properties()
             .food(new FoodProperties.Builder().nutrition(9).saturationMod(10f/20).build())));
 
+    public static final RegistryObject<Item> roe = ITEMS.register("roe",
+        () -> new Item(new Item.Properties()
+            .food(new FoodProperties.Builder().nutrition(2).saturationMod(0.4f/20).build())));
+
+    public static final RegistryObject<Item> bread_with_roe = ITEMS.register("bread_with_roe",
+        () -> new Item(new Item.Properties()
+            .food(new FoodProperties.Builder().nutrition(7).saturationMod(7f/20).build())));
+
     public RoastedOnions() {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
@@ -132,6 +140,8 @@ public class RoastedOnions {
             event.accept(salmon_fillet);
             event.accept(smoked_salmon);
             event.accept(smorrebrod);
+            event.accept(roe);
+            event.accept(bread_with_roe);
         }
     }
 
