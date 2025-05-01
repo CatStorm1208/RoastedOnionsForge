@@ -1,12 +1,20 @@
-package de.catstorm.roastedonions.roastedonions;
+package de.catstorm.roastedonions;
 
 import com.mojang.logging.LogUtils;
+import de.catstorm.roastedonions.Block.SunflowerCrop;
+import de.catstorm.roastedonions.Item.SunflowerCropItem;
+import net.minecraft.core.registries.Registries;
+import net.minecraft.network.chat.Component;
 import net.minecraft.world.effect.MobEffectInstance;
 import net.minecraft.world.effect.MobEffects;
 import net.minecraft.world.food.FoodProperties;
-import net.minecraft.world.item.CreativeModeTabs;
-import net.minecraft.world.item.Item;
+import net.minecraft.world.item.*;
+import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
+import net.minecraft.world.level.block.SoundType;
+import net.minecraft.world.level.block.state.BlockBehaviour;
+import net.minecraft.world.level.material.MapColor;
+import net.minecraft.world.level.material.PushReaction;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -22,17 +30,29 @@ import net.minecraftforge.registries.RegistryObject;
 import org.slf4j.Logger;
 
 // The value here should match an entry in the META-INF/mods.toml file
+@SuppressWarnings("unused")
 @Mod(RoastedOnions.MODID)
 public class RoastedOnions {
 
     // Define mod id in a common place for everything to reference
     public static final String MODID = "roastedonions";
     // Directly reference a slf4j logger
-    private static final Logger LOGGER = LogUtils.getLogger();
-    // Create a Deferred Register to hold Blocks which will all be registered under the "roastedonions" namespace
+    public static final Logger LOGGER = LogUtils.getLogger();
     // Create a Deferred Register to hold Items which will all be registered under the "roastedonions" namespace
     public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, MODID);
+
     // Create a Deferred Register to hold CreativeModeTabs which will all be registered under the "examplemod" namespac
+    public static final DeferredRegister<CreativeModeTab> TABS = DeferredRegister.create(Registries.CREATIVE_MODE_TAB, MODID);
+
+    public static final DeferredRegister<Block> BLOCKS = DeferredRegister.create(ForgeRegistries.BLOCKS, MODID);
+
+    public static final RegistryObject<Block> sunflower_seed = BLOCKS.register("sunflower_seed",
+        () -> new SunflowerCrop(BlockBehaviour.Properties.of().mapColor(MapColor.PLANT).noCollission().randomTicks()
+            .instabreak().sound(SoundType.CROP).pushReaction(PushReaction.DESTROY), 3));
+
+
+    public static final RegistryObject<BlockItem> sunflower_seed_item = ITEMS.register("sunflower_seed",
+        () -> new SunflowerCropItem(sunflower_seed.get(), new Item.Properties().stacksTo(64)));
 
     public static final RegistryObject<Item> roastedonion = ITEMS.register("roastedonion",
         () -> new Item(new Item.Properties()
@@ -101,6 +121,13 @@ public class RoastedOnions {
         () -> new Item(new Item.Properties()
             .food(new FoodProperties.Builder().nutrition(7).saturationMod(7f/20).build())));
 
+
+    public static final RegistryObject<CreativeModeTab> roastedOnionsMenu = TABS.register("roasted_onions",
+        () -> CreativeModeTab.builder().title(Component.translatable("itemGroup.roasted_onions"))
+            .icon(() -> new ItemStack(roastedonion.get())).build());
+
+
+
     public RoastedOnions() {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
@@ -112,6 +139,8 @@ public class RoastedOnions {
         // Register the Deferred Register to the mod event bus so items get registered
         ITEMS.register(modEventBus);
         // Register the Deferred Register to the mod event bus so tabs get registered
+        TABS.register(modEventBus);
+        BLOCKS.register(modEventBus);
 
         // Register ourselves for server and other game events we are interested in
         MinecraftForge.EVENT_BUS.register(this);
@@ -124,7 +153,7 @@ public class RoastedOnions {
     
     @SubscribeEvent
     public void buildContents(BuildCreativeModeTabContentsEvent event) {
-        if (event.getTabKey() == CreativeModeTabs.FOOD_AND_DRINKS) {
+        if (event.getTabKey() == roastedOnionsMenu.getKey()) {
             event.accept(roastedonion);
             event.accept(blue_spandauer);
             event.accept(red_spandauer);
@@ -142,6 +171,7 @@ public class RoastedOnions {
             event.accept(smorrebrod);
             event.accept(roe);
             event.accept(bread_with_roe);
+            event.accept(sunflower_seed_item);
         }
     }
 

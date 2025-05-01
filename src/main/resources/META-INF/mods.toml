@@ -64,7 +64,7 @@ description='''Bunch of danish food ig'''
 
 [[dependencies."${mod_id}"]]
    modId="farmersdelight"
-   mandatory=true
+   mandatory=false
    versionRange="[1.2.4,)"
    ordering="NONE"
    side="BOTH"

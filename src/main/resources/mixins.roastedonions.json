@@ -1,0 +1,16 @@
+{
+    "required": true,
+    "minVersion": "0.7",
+    "package": "de.catstorm.roastedonions.mixin",
+    "compatibilityLevel": "JAVA_17",
+    "mixins": [
+        "TallFlowerBlockMixin"
+    ],
+    "client": [
+    ],
+    "server": [
+    ],
+    "injectors": {
+        "defaultRequire": 1
+    }
+}
