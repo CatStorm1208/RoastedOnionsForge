@@ -1,0 +1,21 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "minecraft:bowl"
+        },
+        {
+            "item": "farmersdelight:tomato"
+        },
+        {
+            "item": "farmersdelight:onion"
+        },
+        {
+            "item": "roastedonions:sunflower_oil"
+        }
+    ],
+    "result": {
+        "item": "roastedonions:tomato_salad",
+        "count": 1
+    }
+}

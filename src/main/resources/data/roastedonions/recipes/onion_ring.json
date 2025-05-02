@@ -1,0 +1,15 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "roastedonions:sunflower_oil"
+        },
+        {
+            "item": "roastedonions:roastedonion"
+        }
+    ],
+    "result": {
+        "item": "roastedonions:onion_ring",
+        "count": 2
+    }
+}

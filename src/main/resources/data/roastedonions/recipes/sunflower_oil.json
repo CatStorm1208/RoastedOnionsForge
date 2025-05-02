@@ -1,0 +1,21 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "roastedonions:sunflower_seed"
+        },
+        {
+            "item": "roastedonions:sunflower_seed"
+        },
+        {
+            "item": "roastedonions:sunflower_seed"
+        },
+        {
+            "item": "minecraft:glass_bottle"
+        }
+    ],
+    "result": {
+        "item": "roastedonions:hotdog",
+        "count": 1
+    }
+}

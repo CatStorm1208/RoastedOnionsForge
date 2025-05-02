@@ -3,6 +3,7 @@ package de.catstorm.roastedonions;
 import com.mojang.logging.LogUtils;
 import de.catstorm.roastedonions.Block.SunflowerCrop;
 import de.catstorm.roastedonions.Item.SunflowerCropItem;
+import de.catstorm.roastedonions.Item.SunflowerOilItem;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.effect.MobEffectInstance;
@@ -29,31 +30,38 @@ import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 import org.slf4j.Logger;
 
-// The value here should match an entry in the META-INF/mods.toml file
 @SuppressWarnings("unused")
 @Mod(RoastedOnions.MODID)
 public class RoastedOnions {
 
-    // Define mod id in a common place for everything to reference
     public static final String MODID = "roastedonions";
-    // Directly reference a slf4j logger
     public static final Logger LOGGER = LogUtils.getLogger();
-    // Create a Deferred Register to hold Items which will all be registered under the "roastedonions" namespace
     public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, MODID);
-
-    // Create a Deferred Register to hold CreativeModeTabs which will all be registered under the "examplemod" namespac
     public static final DeferredRegister<CreativeModeTab> TABS = DeferredRegister.create(Registries.CREATIVE_MODE_TAB, MODID);
-
     public static final DeferredRegister<Block> BLOCKS = DeferredRegister.create(ForgeRegistries.BLOCKS, MODID);
 
+    //Blocks
     public static final RegistryObject<Block> sunflower_seed = BLOCKS.register("sunflower_seed",
         () -> new SunflowerCrop(BlockBehaviour.Properties.of().mapColor(MapColor.PLANT).noCollission().randomTicks()
             .instabreak().sound(SoundType.CROP).pushReaction(PushReaction.DESTROY), 3));
 
+    public static final RegistryObject<Block> sunflower_crate = BLOCKS.register("sunflower_crate",
+        () -> new Block(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS).strength(2f, 3f).sound(SoundType.WOOD)));
 
+    //NOTE: the order of these items will be the order in the creative menu
+    //BlockItems
     public static final RegistryObject<BlockItem> sunflower_seed_item = ITEMS.register("sunflower_seed",
         () -> new SunflowerCropItem(sunflower_seed.get(), new Item.Properties().stacksTo(64)));
 
+    //NOTE: EXCEPTION! Item disguised among BlockItems
+    public static final RegistryObject<Item> roasted_sunflower_seed = ITEMS.register("roasted_sunflower_seed",
+        () -> new Item(new Item.Properties()
+            .food(new FoodProperties.Builder().nutrition(2).saturationMod(3f/20).build())));
+
+    public static final RegistryObject<BlockItem> sunflower_crate_item = ITEMS.register("sunflower_crate",
+        () -> new BlockItem(sunflower_crate.get(), new Item.Properties()));
+
+    //Items
     public static final RegistryObject<Item> roastedonion = ITEMS.register("roastedonion",
         () -> new Item(new Item.Properties()
             .food(new FoodProperties.Builder().nutrition(5).saturationMod(3.62f/20).build())));
@@ -88,11 +96,13 @@ public class RoastedOnions {
 
     public static final RegistryObject<Item> pig_fat = ITEMS.register("pig_fat",
         () -> new Item(new Item.Properties()
-            .food(new FoodProperties.Builder().nutrition(3).saturationMod(3.000001f/20).effect(new MobEffectInstance(MobEffects.CONFUSION, 1000, 4), 0.95f).build())));
+            .food(new FoodProperties.Builder().nutrition(3).saturationMod(3.000001f/20)
+            .effect(new MobEffectInstance(MobEffects.CONFUSION, 1000, 4), 0.95f).build())));
 
     public static final RegistryObject<Item> pork_rind = ITEMS.register("pork_rind",
         () -> new Item(new Item.Properties()
-            .food(new FoodProperties.Builder().nutrition(5).saturationMod(4.694201f/20).effect(new MobEffectInstance(MobEffects.CONFUSION, 1000, 4), 0.69f).build())));
+            .food(new FoodProperties.Builder().nutrition(5).saturationMod(4.694201f/20)
+            .effect(new MobEffectInstance(MobEffects.CONFUSION, 1000, 4), 0.69f).build())));
 
     public static final RegistryObject<Item> uncooked_klejner = ITEMS.register("uncooked_klejner",
         () -> new Item(new Item.Properties()));
@@ -121,7 +131,21 @@ public class RoastedOnions {
         () -> new Item(new Item.Properties()
             .food(new FoodProperties.Builder().nutrition(7).saturationMod(7f/20).build())));
 
+    public static final RegistryObject<Item> sunflower_oil = ITEMS.register("sunflower_oil",
+        () -> new SunflowerOilItem(new Item.Properties()
+            .food(new FoodProperties.Builder().nutrition(1).saturationMod(4f/20).build())
+            .craftRemainder(Items.GLASS_BOTTLE).stacksTo(16)));
 
+    public static final RegistryObject<Item> onion_ring = ITEMS.register("onion_ring",
+        () -> new Item(new Item.Properties()
+            .food(new FoodProperties.Builder().nutrition(3).saturationMod(6f/20).build())));
+
+    public static final RegistryObject<Item> tomato_salad = ITEMS.register("tomato_salad",
+        () -> new BowlFoodItem(new Item.Properties()
+            .food(new FoodProperties.Builder().nutrition(7).saturationMod(7f/20).build()).stacksTo(16)));
+
+
+    //Creative mode tab(s)
     public static final RegistryObject<CreativeModeTab> roastedOnionsMenu = TABS.register("roasted_onions",
         () -> CreativeModeTab.builder().title(Component.translatable("itemGroup.roasted_onions"))
             .icon(() -> new ItemStack(roastedonion.get())).build());
@@ -153,38 +177,8 @@ public class RoastedOnions {
     
     @SubscribeEvent
     public void buildContents(BuildCreativeModeTabContentsEvent event) {
-        if (event.getTabKey() == roastedOnionsMenu.getKey()) {
-            event.accept(roastedonion);
-            event.accept(blue_spandauer);
-            event.accept(red_spandauer);
-            event.accept(golden_berries);
-            event.accept(raw_sausage);
-            event.accept(cooked_sausage);
-            event.accept(hotdog);
-            event.accept(hotdog_with_ketchup);
-            event.accept(pig_fat);
-            event.accept(pork_rind);
-            event.accept(uncooked_klejner);
-            event.accept(klejner);
-            event.accept(salmon_fillet);
-            event.accept(smoked_salmon);
-            event.accept(smorrebrod);
-            event.accept(roe);
-            event.accept(bread_with_roe);
-            event.accept(sunflower_seed_item);
-        }
+        if (event.getTabKey() == roastedOnionsMenu.getKey()) for (var i : ITEMS.getEntries()) event.accept(i);
     }
 
-    private void commonSetup(final FMLCommonSetupEvent event) {
-        // Some common setup code
-        LOGGER.info("HELLO FROM COMMON SETUP");
-        LOGGER.info("DIRT BLOCK >> {}", ForgeRegistries.BLOCKS.getKey(Blocks.DIRT));
-
-        if (Config.logDirtBlock)
-            LOGGER.info("DIRT BLOCK >> {}", ForgeRegistries.BLOCKS.getKey(Blocks.DIRT));
-
-        LOGGER.info(Config.magicNumberIntroduction + Config.magicNumber);
-
-        Config.items.forEach((item) -> LOGGER.info("ITEM >> {}", item.toString()));
-    }
+    private void commonSetup(final FMLCommonSetupEvent event) {}
 }

@@ -16,6 +16,11 @@
   "item.roastedonions.smorrebrod": "Smørrebrød",
   "item.roastedonions.roe": "Roe",
   "item.roastedonions.bread_with_roe": "Bread with Roe",
-  "item.roastedonions.sunflower_seed":  "Sunflower Seed",
+  "item.roastedonions.sunflower_oil": "Sunflower Oil",
+  "item.roastedonions.tomato_salad": "Tomato Salad",
+  "item.roastedonions.onion_ring": "Onion Ring",
+  "item.roastedonions.roasted_sunflower_seed": "Roasted Sunflower Seeds",
+  "block.roastedonions.sunflower_seed":  "Sunflower Seeds",
+  "block.roastedonions.sunflower_crate": "Sunflower Crate",
   "itemGroup.roasted_onions": "Roasted Onions"
 }

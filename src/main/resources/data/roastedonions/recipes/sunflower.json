@@ -1,0 +1,12 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "roastedonions:sunflower_crate"
+        }
+    ],
+    "result": {
+        "item": "minecraft:sunflower",
+        "count": 9
+    }
+}

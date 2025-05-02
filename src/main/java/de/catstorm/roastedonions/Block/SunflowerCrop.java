@@ -38,6 +38,7 @@ public class SunflowerCrop extends CropBlock {
 
     @Override
     public void randomTick(BlockState blockState, ServerLevel serverLevel, BlockPos blockPos, RandomSource randomSource) {
+        if (this.getAge(blockState) >= this.getMaxAge()-1) DoublePlantBlock.placeAt(serverLevel, Blocks.SUNFLOWER.defaultBlockState(), blockPos, 2);
         if (serverLevel.isAreaLoaded(blockPos, 1)) {
             if (serverLevel.getRawBrightness(blockPos, 0) >= 9) {
                 int i = this.getAge(blockState);
@@ -45,7 +46,6 @@ public class SunflowerCrop extends CropBlock {
                     float f = getGrowthSpeed(this, serverLevel, blockPos);
                     if (ForgeHooks.onCropsGrowPre(serverLevel, blockPos, blockState, randomSource.nextInt((int)(25.0F / f) + 1) == 0)) {
                         serverLevel.setBlock(blockPos, this.getStateForAge(i + 1), 2);
-                        if (i >= this.getMaxAge()-1) DoublePlantBlock.placeAt(serverLevel, Blocks.SUNFLOWER.defaultBlockState(), blockPos, 2);
                         ForgeHooks.onCropsGrowPost(serverLevel, blockPos, blockState);
                     }
                 }
@@ -61,7 +61,7 @@ public class SunflowerCrop extends CropBlock {
             i = j;
         }
 
-        if (i >= j-1) DoublePlantBlock.placeAt(level, Blocks.SUNFLOWER.defaultBlockState(), blockPos, 0);
+        if (i >= j-1) DoublePlantBlock.placeAt(level, Blocks.SUNFLOWER.defaultBlockState(), blockPos, 2);
         else level.setBlock(blockPos, this.getStateForAge(i), 2);
     }
 
