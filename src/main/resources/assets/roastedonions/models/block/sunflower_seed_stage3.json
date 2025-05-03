@@ -1,0 +1,6 @@
+{
+    "parent": "minecraft:block/crop",
+    "textures": {
+        "crop": "roastedonions:block/sunflower_seed_stage3"
+    }
+}
