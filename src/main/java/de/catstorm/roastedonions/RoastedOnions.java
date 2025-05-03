@@ -30,7 +30,7 @@ import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 import org.slf4j.Logger;
 
-@SuppressWarnings("unused")
+@SuppressWarnings({"unused", "deprecation"})
 @Mod(RoastedOnions.MODID)
 public class RoastedOnions {
 
@@ -54,6 +54,7 @@ public class RoastedOnions {
         () -> new SunflowerCropItem(sunflower_seed.get(), new Item.Properties().stacksTo(64)));
 
     //NOTE: EXCEPTION! Item disguised among BlockItems
+    //TODO: furnace, smoker, stove(?), campfire, bulk-burning(?)
     public static final RegistryObject<Item> roasted_sunflower_seed = ITEMS.register("roasted_sunflower_seed",
         () -> new Item(new Item.Properties()
             .food(new FoodProperties.Builder().nutrition(2).saturationMod(3f/20).build())));
@@ -131,6 +132,8 @@ public class RoastedOnions {
         () -> new Item(new Item.Properties()
             .food(new FoodProperties.Builder().nutrition(7).saturationMod(7f/20).build())));
 
+    //TODO: fix fried rice recipe with oil
+    //TODO: fix hotdog crafting
     public static final RegistryObject<Item> sunflower_oil = ITEMS.register("sunflower_oil",
         () -> new SunflowerOilItem(new Item.Properties()
             .food(new FoodProperties.Builder().nutrition(1).saturationMod(4f/20).build())
