@@ -7,7 +7,7 @@
             "tag": "forge:crops/rice"
         },
         {
-            "tag": "roastedonions:sunflower_oil"
+            "item": "roastedonions:sunflower_oil"
         },
         {
             "item": "minecraft:carrot"
