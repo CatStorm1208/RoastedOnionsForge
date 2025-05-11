@@ -1,6 +1,5 @@
 package de.catstorm.roastedonions.mixin;
 
-import de.catstorm.roastedonions.RoastedOnions;
 import net.minecraft.core.BlockPos;
 import net.minecraft.world.level.LevelReader;
 import net.minecraft.world.level.block.Blocks;
@@ -16,7 +15,6 @@ public class TallFlowerBlockMixin {
     //Mixins seem to only work when compiled, not a huge deal, but it makes testing a pain in the ass
     @Inject(method = "isValidBonemealTarget", at = @At("HEAD"), cancellable = true)
     public void isValidBonemealTarget(LevelReader p_256234_, BlockPos p_57304_, BlockState p_57305_, boolean p_57306_, CallbackInfoReturnable<Boolean> cir) {
-        RoastedOnions.LOGGER.info("hehe");
         if (p_57305_.getBlock().equals(Blocks.SUNFLOWER)) cir.setReturnValue(false);
     }
 }
