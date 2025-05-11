@@ -1,0 +1,9 @@
+{
+    "type": "minecraft:smelting",
+    "ingredient": {
+        "item": "roastedonions:sunflower_seed"
+    },
+    "result": "roastedonions:roasted_sunflower_seed",
+    "experience": 0.0,
+    "cookingtime": 100
+}

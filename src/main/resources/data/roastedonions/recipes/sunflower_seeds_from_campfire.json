@@ -1,0 +1,9 @@
+{
+    "type": "minecraft:campfire_cooking",
+    "ingredient": {
+        "item": "roastedonions:sunflower_seeds"
+    },
+    "result": "roastedonions:roasted_sunflower_seeds",
+    "experience": 0.0,
+    "cookingtime": 100
+}
